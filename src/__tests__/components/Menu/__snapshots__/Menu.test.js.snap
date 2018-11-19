@@ -124,7 +124,7 @@ exports[`Menu renders correctly 1`] = `
               "textTransform": "uppercase",
             }
           }
-          href="#THIS"
+          href="/#THIS"
         >
           THIS
         </a>
@@ -167,7 +167,7 @@ exports[`Menu renders correctly 1`] = `
               "textTransform": "uppercase",
             }
           }
-          href="#IS"
+          href="/#IS"
         >
           IS
         </a>
@@ -210,7 +210,7 @@ exports[`Menu renders correctly 1`] = `
               "textTransform": "uppercase",
             }
           }
-          href="#A"
+          href="/#A"
         >
           A
         </a>
@@ -253,7 +253,7 @@ exports[`Menu renders correctly 1`] = `
               "textTransform": "uppercase",
             }
           }
-          href="#TEST"
+          href="/#TEST"
         >
           TEST
         </a>

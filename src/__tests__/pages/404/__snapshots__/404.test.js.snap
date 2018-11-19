@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "backgroundColor": "#f8f8f8",
+      "height": "100vh",
+    }
+  }
+>
+  <Header
+    standaloneVersion={true}
+  />
+  <section
+    css={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "textAlign": "center",
+      }
+    }
+  >
+    <_default>
+      <div
+        css={
+          Object {
+            "paddingTop": "200px",
+          }
+        }
+      >
+        <img
+          alt="Tucows Logo"
+          css={
+            Object {
+              "@media(max-width: 460px)": Object {
+                "width": "250px",
+              },
+              "@media(max-width: 680px)": Object {
+                "width": "400px",
+              },
+              "@media(max-width: 980px)": Object {
+                "width": "500px",
+              },
+              "width": "650px",
+            }
+          }
+          data-cy="test-sponsor-image"
+          src="test-file-stub"
+        />
+        <h1
+          css={
+            Object {
+              "@media(max-width: 980px)": Object {
+                "fontSize": "38px",
+              },
+              "fontSize": "44px",
+              "fontWeight": "700",
+              "marginBottom": "20px",
+            }
+          }
+        >
+          Oops!
+        </h1>
+        <p
+          css={
+            Object {
+              "@media(max-width: 980px)": Object {
+                "fontSize": "20px",
+              },
+              "color": "#00205b",
+              "fontSize": "24px",
+              "fontWeight": "600",
+              "marginBottom": "30px",
+            }
+          }
+        >
+          The webpage you are looking for is not here!
+        </p>
+        <ActionButton
+          backgroundColor="#f8f8f8"
+          dataCy="404-button"
+          foregroundColor="#00205b"
+          link="https://qhacks.io/"
+          target="_self"
+          type="rounded"
+        >
+          Go Back
+        </ActionButton>
+      </div>
+    </_default>
+  </section>
+</div>
+`;

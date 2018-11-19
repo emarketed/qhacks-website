@@ -6,6 +6,15 @@ import Menu from "./Menu";
 
 let prevScrollY = 0;
 
+const menuItems = [
+  "about",
+  // "speakers",
+  // "schedule",
+  "testimonials",
+  "sponsors",
+  "faq"
+];
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -13,24 +22,27 @@ class Header extends Component {
       isHeaderVisible: true,
       isMobileMenuVisible: false,
       isLogoVisible: false,
-      isAtTheTop: true
+      isAtTheTop: true,
+      standaloneVersion: props.standaloneVersion || false
     };
   }
 
   componentDidMount() {
     window.onscroll = () => {
-      const isAtTheTop = window.scrollY === 0;
-      const isLogoVisible = window.scrollY > 200;
-      const isHeaderVisible =
-        window.scrollY < prevScrollY || window.scrollY < 100;
-      if (
-        this.state.isHeaderVisible !== isHeaderVisible ||
-        this.state.isLogoVisible !== isLogoVisible ||
-        this.state.isAtTheTop !== isAtTheTop
-      ) {
-        this.setState({ isHeaderVisible, isLogoVisible, isAtTheTop });
+      if (!this.props.standaloneVersion) {
+        const isAtTheTop = window.scrollY === 0;
+        const isLogoVisible = window.scrollY > 200;
+        const isHeaderVisible =
+          window.scrollY < prevScrollY || window.scrollY < 100;
+        if (
+          this.state.isHeaderVisible !== isHeaderVisible ||
+          this.state.isLogoVisible !== isLogoVisible ||
+          this.state.isAtTheTop !== isAtTheTop
+        ) {
+          this.setState({ isHeaderVisible, isLogoVisible, isAtTheTop });
+        }
+        prevScrollY = window.scrollY;
       }
-      prevScrollY = window.scrollY;
     };
   }
 
@@ -68,9 +80,11 @@ class Header extends Component {
               : (this.state.isHeaderVisible && "0.95") || "0",
             zIndex: "5",
             "@media(min-width:860px)": {
-              backgroundColor: this.state.isAtTheTop
-                ? "rgba(0,0,0,0)"
-                : "#ffffff"
+              backgroundColor: this.props.standaloneVersion
+                ? "#ffffff"
+                : (this.state.isAtTheTop
+                  ? "rgba(0,0,0,0)"
+                  : "#ffffff")
             }
           }}
         >
@@ -84,11 +98,12 @@ class Header extends Component {
               }}
             >
               <Menu
-                menuItems={this.props.menuItems}
+                menuItems={this.props.menuItems || menuItems}
                 imgCss={this.state.isLogoVisible}
+                standaloneVersion={this.props.standaloneVersion}
               />
               <MobileMenu
-                menuItems={this.props.menuItems}
+                menuItems={this.props.menuItems || menuItems}
                 isMenuVisible={this.state.isMobileMenuVisible}
                 toggleMenu={this.onMobileMenuClicked}
               />
