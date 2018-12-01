@@ -9,7 +9,8 @@ import notFoundImg from "../assets/img/icons/404.svg";
 export default () => (
   <div css={{
     backgroundColor: "#f8f8f8",
-    height: "100vh"
+    minHeight: "100vh",
+    bottomMargin: "20px"
   }}>
     <Header standaloneVersion={true} />
     <section
