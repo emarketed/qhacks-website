@@ -89,8 +89,8 @@ exports[`Landing renders correctly 1`] = `
                 "width": "192px",
               },
               "maxWidth": "300px",
-              "paddingBottom": "24px",
-              "paddingTop": "43px",
+              "paddingBottom": "18px",
+              "paddingTop": "40px",
               "width": "100vw",
             }
           }
@@ -106,7 +106,7 @@ exports[`Landing renders correctly 1`] = `
               "color": "#00205b",
               "fontSize": "22px",
               "fontWeight": 600,
-              "paddingBottom": "40px",
+              "paddingBottom": "30px",
             }
           }
           data-cy="qhacks-information"
@@ -119,12 +119,12 @@ exports[`Landing renders correctly 1`] = `
               "@media(max-width: 820px)": Object {
                 "fontSize": "15px",
                 "lineHeight": "1.6",
-                "paddingTop": "24px",
+                "paddingTop": "20px",
               },
               "color": "#575757",
               "fontWeight": 500,
               "lineHeight": "30px",
-              "paddingTop": "25px",
+              "paddingTop": "20px",
             }
           }
           data-cy="qhacks-tagline"
@@ -133,17 +133,23 @@ exports[`Landing renders correctly 1`] = `
           <br />
           Join us for an unforgettable experience!
         </h2>
-        <div
-          css={
+        <ActionButton
+          backgroundColor="#ffffff"
+          dataCy="login-button"
+          foregroundColor="#00205b"
+          link="https://app.qhacks.io/qhacks-2019/apply"
+          style={
             Object {
               "@media(max-width: 820px)": Object {
-                "margin": "45px auto",
+                "margin": "30px 0 45px auto",
               },
-              "margin": "24px 0 100px 0",
-              "visibility": "hidden",
+              "margin": "25px 0 100px 0",
             }
           }
-        />
+          type="rounded"
+        >
+          Apply
+        </ActionButton>
       </div>
       <div
         css={

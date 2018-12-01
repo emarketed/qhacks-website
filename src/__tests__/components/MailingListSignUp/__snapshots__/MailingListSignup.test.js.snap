@@ -10,7 +10,7 @@ exports[`MailingListSignup renders correctly 1`] = `
       "color": "white",
       "display": "flex",
       "justifyContent": "center",
-      "minHeight": "300px",
+      "minHeight": "270px",
       "width": "100%",
     }
   }
@@ -26,6 +26,7 @@ exports[`MailingListSignup renders correctly 1`] = `
           "fontWeight": 700,
           "lineHeight": "28px",
           "marginBottom": "28px",
+          "marginTop": "20px",
           "textAlign": "center",
         }
       }
