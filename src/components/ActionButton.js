@@ -63,7 +63,7 @@ const ActionButton = (props) => {
       onClick={props.onClick}
       href={props.link}
       rel="external noopener"
-      target="_blank"
+      target={props.target || "_blank"}
     >
       {props.children}
     </a>

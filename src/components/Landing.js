@@ -9,15 +9,6 @@ import logo from "../assets/img/logo/qhacksCrown-colored.svg";
 import word from "../assets/img/logo/qhacksWordmark-colored.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
-const menuItems = [
-  "about",
-  // "speakers",
-  // "schedule",
-  "testimonials",
-  "sponsors",
-  "faq"
-];
-
 const applyButtonCSS = {
   margin: "25px 0 100px 0",
   "@media(max-width: 820px)": {
@@ -37,7 +28,7 @@ const Landing = () => (
       }
     }}
   >
-    <Header menuItems={menuItems} />
+    <Header standaloneVersion={false}/>
     <ContentWrapper>
       <section
         css={{

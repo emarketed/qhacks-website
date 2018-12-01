@@ -15,14 +15,7 @@ exports[`Landing renders correctly 1`] = `
   id=""
 >
   <Header
-    menuItems={
-      Array [
-        "about",
-        "testimonials",
-        "sponsors",
-        "faq",
-      ]
-    }
+    standaloneVersion={false}
   />
   <_default>
     <section
