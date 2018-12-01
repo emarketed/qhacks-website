@@ -56,9 +56,11 @@ exports[`SpeakerCard renders correctly 1`] = `
       css={
         Object {
           "lineHeight": "20px",
+          "minHeight": "210px",
           "overflow": "hidden",
           "padding": "16px 24px 24px 24px",
           "position": "relative",
+          "transition": "1s",
         }
       }
     >
@@ -97,7 +99,7 @@ exports[`SpeakerCard renders correctly 1`] = `
             Object {
               "color": "#565656",
               "lineHeight": "1.43",
-              "marginBottom": "-278px",
+              "marginBottom": "-178px",
               "paddingBottom": "36px",
               "paddingTop": "24px",
               "textOverflow": "hidden",

@@ -7,7 +7,6 @@ import FAQs from "../components/FAQs";
 import pjson from "../../package.json";
 import About from "../components/About";
 import Footer from "../components/Footer";
-import Mentors from "../components/Mentors";
 import Podcast from "../components/Podcast";
 import Landing from "../components/Landing";
 import Sponsors from "../components/Sponsors";
@@ -89,10 +88,9 @@ export default () => (
       <Landing />
       <MailingListSignup />
       <About />
-      <Speakers />
-      <Mentors />
-      {/* <EventSchedule /> */}
       <HackerTestimonials />
+      <Speakers />
+      {/* <EventSchedule /> */}
       <Sponsors />
       <FAQs />
       <Podcast />

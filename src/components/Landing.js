@@ -28,7 +28,7 @@ const Landing = () => (
       }
     }}
   >
-    <Header standaloneVersion={false}/>
+    <Header standaloneVersion={false} />
     <ContentWrapper>
       <section
         css={{

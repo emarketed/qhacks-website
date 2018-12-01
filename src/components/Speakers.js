@@ -1,6 +1,7 @@
 import React from "react";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
+import Mentors from "./Mentors";
 
 import cubes3webp from "../assets/img/icons/cubes-3.webp";
 import cubes3png from "../assets/img/icons/cubes-3.png";
@@ -85,7 +86,7 @@ const Speakers = () => (
           width: "235px",
           height: "289px",
           position: "absolute",
-          bottom: "-210px",
+          bottom: "-250px",
           right: "62px",
           display: "block",
           "@media(max-width: 1000px)": {
@@ -105,6 +106,7 @@ const Speakers = () => (
           alt="Floating cubes"
         />
       </picture>
+      <Mentors />
     </ContentWrapper>
   </section>
 );
