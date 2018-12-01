@@ -3,7 +3,9 @@ import React from "react";
 const TestimonialsBlurbCompressed = (props) => {
   return (
     <div css={{ textAlign: "center", marginBottom: "10px" }}>
-      <h1 css={{ marginBottom: "16px" }}>Hacker Testimonials</h1>
+      <h1 css={{ marginTop: "32px", marginBottom: "16px" }}>
+        Hacker Testimonials
+      </h1>
       <p
         css={{
           fontSize: "20px",

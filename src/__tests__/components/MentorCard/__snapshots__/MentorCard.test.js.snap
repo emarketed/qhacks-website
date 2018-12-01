@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MentorCard renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "margin": "10px",
+      "marginTop": "56px",
+      "textAlign": "center",
+    }
+  }
+>
+  <div
+    css={
+      Object {
+        "borderColor": undefined,
+        "borderRadius": "50%",
+        "borderStyle": "solid",
+        "borderWidth": "3px",
+        "height": "180px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "overflow": "hidden",
+        "width": "180px",
+      }
+    }
+  >
+    <img
+      alt="Eric Braun - Machine Learning Engineer"
+      css={
+        Object {
+          "marginLeft": "-10px",
+          "width": "190px",
+        }
+      }
+      src="eric.png"
+    />
+  </div>
+  <h2
+    css={
+      Object {
+        "fontSize": "28px",
+        "fontWeight": "600",
+        "marginBottom": "8px",
+        "marginTop": "24px",
+      }
+    }
+  >
+    Eric Braun
+  </h2>
+  <p>
+    Machine Learning Engineer
+  </p>
+  <br />
+  <a
+    href="https://www.qualcomm.com/"
+    rel="external noopener"
+    target="_blank"
+  >
+    <img
+      alt="Qualcomm"
+      css={
+        Object {
+          "height": "auto",
+          "marginBottom": "32px",
+          "marginTop": "0px",
+          "width": "180px",
+        }
+      }
+      src="qualcomm.png"
+    />
+  </a>
+</div>
+`;

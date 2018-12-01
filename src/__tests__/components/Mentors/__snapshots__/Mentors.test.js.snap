@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mentors renders correctly 1`] = `
+<div
+  css={
+    Object {
+      "marginBottom": "16px",
+    }
+  }
+>
+  <h1
+    css={
+      Object {
+        "fontSize": "28px",
+        "fontWeight": "600",
+      }
+    }
+  >
+    Additional Speakers and Mentors
+  </h1>
+  <div
+    css={
+      Object {
+        "@media (max-width: 1284px)": Object {
+          "gridTemplateColumns": "auto auto",
+        },
+        "@media (max-width: 912px)": Object {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+        },
+        "@media (min-width: 1284px)": Object {
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+        },
+        "display": "grid",
+      }
+    }
+  >
+    <_default
+      borderColor="#00205b"
+      companyLogo="test-file-stub"
+      companyName="Qualcomm"
+      companyUrl="https://www.qualcomm.com/"
+      headshot="test-file-stub"
+      key="Eric Braun"
+      name="Eric Braun"
+      title="Machine Learning Engineer"
+    />
+    <_default
+      borderColor="#fedb01"
+      companyLogo="test-file-stub"
+      companyName="Google"
+      companyUrl="https://www.google.com"
+      headshot="test-file-stub"
+      key="Vivek Chacha"
+      logoHeight="80px"
+      logoMarginTop="-20px"
+      name="Vivek Chacha"
+      title="Software Engineer"
+    />
+    <_default
+      borderColor="#c81c2e"
+      companyLogo="test-file-stub"
+      companyName="Microsoft"
+      companyUrl="https://www.microsoft.com"
+      headshot="test-file-stub"
+      key="Nicole Fitzgerald"
+      name="Nicole Fitzgerald"
+      title="Machine Learning Engineer"
+    />
+    <_default
+      borderColor="#00205b"
+      companyLogo="test-file-stub"
+      companyName="Shopify"
+      companyUrl="https://www.shopify.com"
+      headshot="test-file-stub"
+      key="John Martin"
+      logoHeight="45px"
+      name="John Martin"
+      title="Data Infrastructure Engineer"
+    />
+    <_default
+      borderColor="#fedb01"
+      companyLogo="test-file-stub"
+      companyName="AxiomZen"
+      companyUrl="https://www.axiomzen.co/"
+      headshot="test-file-stub"
+      key="Layne Lafrance"
+      logoHeight="25px"
+      logoMarginTop="10px"
+      name="Layne Lafrance"
+      title="Project Manager"
+    />
+    <_default
+      borderColor="#c81c2e"
+      companyLogo="test-file-stub"
+      companyName="Ten Thousand Coffees"
+      companyUrl="https://www.tenthousandcoffees.com/"
+      headshot="test-file-stub"
+      key="Zack Harley"
+      logoHeight="60px"
+      logoWidth="60px"
+      name="Zack Harley"
+      title="Software Engineer"
+    />
+    <_default
+      borderColor="#00205b"
+      companyLogo="test-file-stub"
+      companyName="RBC"
+      companyUrl="https://www.rbc.com"
+      headshot="test-file-stub"
+      key="Graham Miller"
+      logoHeight="60px"
+      logoWidth="40px"
+      name="Graham Miller"
+      title="Software Engineer"
+    />
+    <_default
+      borderColor="#fedb01"
+      companyLogo="test-file-stub"
+      companyName="Nest"
+      companyUrl="https://nest.com"
+      headshot="test-file-stub"
+      key="Enoch Tam"
+      logoHeight="30px"
+      logoMarginTop="10px"
+      logoWidth="75px"
+      name="Enoch Tam"
+      title="Software Engineer"
+    />
+  </div>
+</div>
+`;
