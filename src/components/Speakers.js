@@ -4,24 +4,24 @@ import SpeakerSlider from "./SpeakerSlider";
 
 import cubes3webp from "../assets/img/icons/cubes-3.webp";
 import cubes3png from "../assets/img/icons/cubes-3.png";
-import musk from "../assets/img/speakers/musk.png";
+import jacob from "../assets/img/speakers/jacobAndreou.jpg";
+import kaheer from "../assets/img/speakers/kaheerSuleman.jpg";
 import ContentWrapper from "./ContentWrapper";
 
-//TODO: Update this with real speakers
 const speakers = [
   {
-    name: "Vinith Suriyakumar",
-    title: "Founder and CEO of Clarifai",
+    name: "Jacob Andreou",
+    title: "VP of Product at Snap",
     description:
-      "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
-    image: musk
+      "Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen’s University’s Biomedical Computing program in 2015 and then started his career at Snap as Product Designer. He soon after became the Director of Growth at Snap and then most recently earlier this year became Snap’s VP of Product launching products such as Snap’s developer platform, Snap Kit.",
+    image: jacob
   },
   {
-    name: "Noah Ifergan",
-    title: "Founder and CEO of Clarifai",
+    name: "Kaheer Suleman",
+    title: "Principal Research Program Manager at Microsoft",
     description:
-      "Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and thought leader pioneering the field of applied artificial intelligence (AI). Matt's groundbreaking research in computer vision has propelled the image recognition industry from theory to real-world application. Matthew is a machine learning Ph.D. and ya.",
-    image: musk
+      "Kaheer is a Principal Research Program Manager at the Microsoft Research Montreal lab.  Kaheer co-founded the deep learning for language startup Maluuba and served as its CTO prior to its acquisition, by Microsoft,  in early 2017.  He currently works on machine learning approaches for natural language processing focusing on question answering, conversation systems and common sense reasoning.",
+    image: kaheer
   }
 ];
 
