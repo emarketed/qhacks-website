@@ -82,6 +82,6 @@
     "prettier": "^1.13.7",
     "pretty-quick": "^1.6.0",
     "regenerator-runtime": "^0.12.1",
-    "start-server-and-test": "^1.7.5"
+    "start-server-and-test": "^1.7.11"
   }
 }
