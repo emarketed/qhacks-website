@@ -49,7 +49,7 @@ class SignUpForm extends Component {
     const baseUrl = "https://app.qhacks.io";
     this.setStatusLoading();
     axios
-      .post(`${baseUrl}/api/v1/subscribe`, {
+      .post(`${baseUrl}/api/subscribe`, {
         email,
         event: "qhacks-2019",
         name: "announcements-newsletter"
