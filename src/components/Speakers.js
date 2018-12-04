@@ -14,7 +14,7 @@ const speakers = [
     name: "Jacob Andreou",
     title: "VP of Product at Snap",
     description:
-      "Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen’s University’s Biomedical Computing program in 2015 and then started his career at Snap as Product Designer. He soon after became the Director of Growth at Snap and then most recently earlier this year became Snap’s VP of Product launching products such as Snap’s developer platform, Snap Kit.",
+      "Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen's University's Biomedical Computing program and then started his career at Snap in Product Design. He now serves as Snap's Vice President of Product leading all product development and teams of Designers, Product Managers, Data Scientists and User Researchers.",
     image: jacob
   },
   {
