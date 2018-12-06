@@ -75,7 +75,7 @@ exports[`Mentors renders correctly 1`] = `
       key="John Martin"
       logoHeight="45px"
       name="John Martin"
-      title="Data Infrastructure Engineer"
+      title="Data Platform Engineer"
     />
     <_default
       borderColor="#fedb01"
@@ -87,7 +87,7 @@ exports[`Mentors renders correctly 1`] = `
       logoHeight="25px"
       logoMarginTop="10px"
       name="Layne Lafrance"
-      title="Project Manager"
+      title="Product Manager"
     />
     <_default
       borderColor="#c81c2e"
