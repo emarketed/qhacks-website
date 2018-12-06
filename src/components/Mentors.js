@@ -52,7 +52,7 @@ const mentors = [
   },
   {
     name: "John Martin",
-    title: "Data Infrastructure Engineer",
+    title: "Data Platform Engineer",
     headshot: john,
     companyLogo: shopfiy,
     companyName: "Shopify",
@@ -61,7 +61,7 @@ const mentors = [
   },
   {
     name: "Layne Lafrance",
-    title: "Project Manager",
+    title: "Product Manager",
     headshot: layne,
     companyLogo: axiomZen,
     companyName: "AxiomZen",
