@@ -88,9 +88,9 @@ export default () => (
       <Landing />
       <MailingListSignup />
       <About />
-      {/* <Speakers /> */}
-      {/* <EventSchedule /> */}
       <HackerTestimonials />
+      <Speakers />
+      {/* <EventSchedule /> */}
       <Sponsors />
       <FAQs />
       <Podcast />

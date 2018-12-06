@@ -52,7 +52,7 @@ class SpeakerCard extends Component {
                   filter: this.state.learnMoreToggled
                     ? "blur(5px)"
                     : "blur(0px)",
-                  marginBottom: this.state.learnMoreToggled ? "-278px" : "0px"
+                  marginBottom: this.state.learnMoreToggled ? "-178px" : "0px"
                 }}
               />
             </div>
@@ -61,7 +61,9 @@ class SpeakerCard extends Component {
                 position: "relative",
                 padding: "16px 24px 24px 24px",
                 lineHeight: "20px",
-                overflow: "hidden"
+                overflow: "hidden",
+                transition: "1s",
+                minHeight: this.state.learnMoreToggled ? "390px" : "210px"
               }}
             >
               <h3
@@ -92,7 +94,7 @@ class SpeakerCard extends Component {
                     transition: "1s",
                     marginBottom: this.state.learnMoreToggled
                       ? "0px"
-                      : "-278px",
+                      : "-178px",
                     lineHeight: "1.43",
                     color: this.state.learnMoreToggled ? "#000000" : "#565656"
                   }}

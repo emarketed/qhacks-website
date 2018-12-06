@@ -74,6 +74,7 @@ exports[`IndexPage renders correctly 1`] = `
     <MailingListSignup />
     <About />
     <HackerTestimonials />
+    <Speakers />
     <Sponsors />
     <FAQs />
     <Podcast />

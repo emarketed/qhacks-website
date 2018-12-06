@@ -9,7 +9,7 @@ const MailingListSignup = (props) => (
     css={{
       width: "100%",
       color: "white",
-      minHeight: "300px",
+      minHeight: "270px",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -22,6 +22,7 @@ const MailingListSignup = (props) => (
         data-cy="mailing-list-cta"
         css={{
           fontWeight: 700,
+          marginTop: "20px",
           marginBottom: "28px",
           fontSize: "22px",
           "@media screen and (max-width: 860px)": {
