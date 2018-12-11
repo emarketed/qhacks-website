@@ -683,10 +683,7 @@ exports[`Sponsors renders correctly 1`] = `
               "width": "60%",
             },
             "display": "grid",
-            "gridTemplateColumns": "1fr 1fr 1fr",
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "width": "80%",
+            "gridTemplateColumns": "1fr 1fr 1fr 1fr",
           }
         }
       >
@@ -728,6 +725,28 @@ exports[`Sponsors renders correctly 1`] = `
                 },
                 "marginTop": "-10px",
                 "width": "100px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://indico.io"
+        >
+          <img
+            alt="Indico Logo"
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "marginTop": "5px",
+                  "width": "60px",
+                },
+                "@media(max-width: 920px)": Object {
+                  "marginBottom": "10px",
+                  "width": "90px",
+                },
+                "marginTop": "10px",
+                "width": "120px",
               }
             }
             src="test-file-stub"
@@ -903,6 +922,41 @@ exports[`Sponsors renders correctly 1`] = `
                     "width": "310px",
                   },
                   "marginTop": "25px",
+                  "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "@media(max-width: 570px)": Object {
+                "marginBottom": "20px",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <_default
+            url="https://dining.queensu.ca/"
+          >
+            <img
+              alt="Sodexo and Coca-Cola Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "230px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "310px",
+                  },
                   "width": "400px",
                 }
               }

@@ -23,6 +23,8 @@ import stdlibLogo from "../assets/img/sponsors/stdlib.svg";
 import mosaicLogo from "../assets/img/sponsors/mosaic.svg";
 import apolloLogo from "../assets/img/sponsors/apollo.svg";
 import googleLogo from "../assets/img/sponsors/google.svg";
+import indicoLogo from "../assets/img/sponsors/indico.svg";
+import sodexoLogo from "../assets/img/sponsors/sodexo.svg";
 import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
 import sunLifeLogo from "../assets/img/sponsors/sunlife.svg";
 import wolframLogo from "../assets/img/sponsors/wolfram.svg";
@@ -618,10 +620,7 @@ const Sponsors = () => (
         <div
           css={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "80%",
+            gridTemplateColumns: "1fr 1fr 1fr 1fr",
             "@media(max-width: 920px)": {
               gridTemplateColumns: "1fr 1fr",
               width: "60%",
@@ -668,6 +667,24 @@ const Sponsors = () => (
                 }
               }}
               alt="Wakeups Logo"
+            />
+          </SponsorLink>
+          <SponsorLink url="https://indico.io">
+            <img
+              src={indicoLogo}
+              css={{
+                width: "120px",
+                marginTop: "10px",
+                "@media(max-width: 920px)": {
+                  width: "90px",
+                  marginBottom: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "60px",
+                  marginTop: "5px"
+                }
+              }}
+              alt="Indico Logo"
             />
           </SponsorLink>
           <SponsorLink url="https://www.launchacademy.ca/">
@@ -822,6 +839,37 @@ const Sponsors = () => (
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
+              marginBottom: "20px",
+              "@media(max-width: 570px)": {
+                marginBottom: "20px"
+              }
+            }}
+          >
+            <SponsorLink url="https://dining.queensu.ca/">
+              <img
+                src={sodexoLogo}
+                css={{
+                  width: "400px",
+                  "@media(max-width: 980px)": {
+                    width: "310px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "250px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "230px"
+                  }
+                }}
+                alt="Sodexo and Coca-Cola Logo"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 4 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
               marginBottom: "40px",
               "@media(max-width: 570px)": {
                 marginBottom: "20px"
@@ -848,7 +896,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 4 */}
+          {/* School Row 5 */}
           <div
             css={{
               display: "grid",
@@ -919,7 +967,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 5 */}
+          {/* School Row 6 */}
           <div
             css={{
               display: "grid",
@@ -947,7 +995,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 6 */}
+          {/* School Row 7 */}
           {/* <div
             css={{
               display: "grid",

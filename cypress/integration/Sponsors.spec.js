@@ -11,7 +11,7 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 33);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 35);
     });
 
     it("should contain the proper urls", () => {
@@ -40,10 +40,12 @@ describe("Sponsors", () => {
         "https://www.orangegate.ca/",
         "https://wolfram.com/language/",
         "https://wake-ups.com",
+        "https://indico.io",
         "https://www.launchacademy.ca/",
         "https://www.ece.queensu.ca/",
         "https://smith.queensu.ca/grad_studies/mei/",
         "https://queensu.ca/innovationcentre/",
+        "https://dining.queensu.ca/",
         "https://www.cityofkingston.ca/city-hall/projects-construction/mayors-innovation-challenge",
         "https://www.bloomberg.com/canada",
         "https://www.stickermule.com/ca",
