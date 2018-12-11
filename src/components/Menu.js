@@ -35,6 +35,7 @@ const Menu = (props) => {
         id="mlh-trust-badge"
         href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
         target="_blank"
+        rel="external noopener"
         css={{
           display: "none",
           "@media(min-width:820px)": {
