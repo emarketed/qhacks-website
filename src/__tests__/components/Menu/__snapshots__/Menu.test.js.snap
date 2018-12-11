@@ -45,6 +45,7 @@ exports[`Menu renders correctly 1`] = `
     }
     href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
     id="mlh-trust-badge"
+    rel="external noopener"
     target="_blank"
   >
     <img
