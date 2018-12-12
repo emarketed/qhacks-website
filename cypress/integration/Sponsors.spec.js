@@ -11,7 +11,7 @@ describe("Sponsors", () => {
 
   describe("Links", () => {
     it("should contain the proper number of sponsors", () => {
-      cy.get("[data-cy=sponsor-link]").should("have.length", 29);
+      cy.get("[data-cy=sponsor-link]").should("have.length", 35);
     });
 
     it("should contain the proper urls", () => {
@@ -29,18 +29,24 @@ describe("Sponsors", () => {
         "https://loopio.com",
         "https://www.telus.com/en/",
         "https://www2.deloitte.com/ca/en.html",
+        "https://www.cse-cst.gc.ca/en",
         "https://balsamiq.com",
-        "https://wolfram.com/language/",
+        "https://careers.google.com/",
         "https://ritual.co",
         "https://1password.com/",
         "https://sketchapp.com",
         "https://www.mosaicmfg.com/",
-        "https://www.launchacademy.ca/",
+        "https://www.apollographql.com/",
         "https://www.orangegate.ca/",
+        "https://wolfram.com/language/",
         "https://wake-ups.com",
+        "https://indico.io",
+        "https://www.launchacademy.ca/",
         "https://www.ece.queensu.ca/",
         "https://smith.queensu.ca/grad_studies/mei/",
         "https://queensu.ca/innovationcentre/",
+        "https://dining.queensu.ca/",
+        "https://www.cityofkingston.ca/city-hall/projects-construction/mayors-innovation-challenge",
         "https://www.bloomberg.com/canada",
         "https://www.stickermule.com/ca",
         "https://education.github.com/pack",

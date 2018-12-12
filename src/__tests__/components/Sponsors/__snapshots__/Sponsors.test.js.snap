@@ -405,8 +405,11 @@ exports[`Sponsors renders correctly 1`] = `
                   "marginBottom": "20px",
                 },
                 "display": "grid",
-                "gridTemplateColumns": "1fr",
+                "gridTemplateColumns": "1fr 1fr",
                 "marginBottom": "50px",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "60%",
               }
             }
           >
@@ -425,6 +428,26 @@ exports[`Sponsors renders correctly 1`] = `
                       "width": "130px",
                     },
                     "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.cse-cst.gc.ca/en"
+            >
+              <img
+                alt="Communications Security Establishment Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginBottom": "20px",
+                      "width": "120px",
+                    },
+                    "@media(max-width: 910px)": Object {
+                      "width": "160px",
+                    },
+                    "width": "230px",
                   }
                 }
                 src="test-file-stub"
@@ -475,10 +498,10 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://wolfram.com/language/"
+              url="https://careers.google.com/"
             >
               <img
-                alt="Wolfram Logo"
+                alt="Google Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
@@ -552,7 +575,7 @@ exports[`Sponsors renders correctly 1`] = `
                 },
                 "display": "grid",
                 "gridTemplateColumns": "1fr 1fr 1fr 1fr",
-                "marginBottom": "40px",
+                "marginBottom": "50px",
                 "marginLeft": "auto",
                 "marginRight": "auto",
                 "width": "100%",
@@ -588,12 +611,12 @@ exports[`Sponsors renders correctly 1`] = `
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "width": "100px",
+                      "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
-                      "marginBottom": "10px",
                       "width": "130px",
                     },
+                    "marginTop": "14px",
                     "width": "150px",
                   }
                 }
@@ -601,10 +624,10 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.launchacademy.ca/"
+              url="https://www.apollographql.com/"
             >
               <img
-                alt="Launch Academy Logo"
+                alt="Apollo Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
@@ -612,10 +635,10 @@ exports[`Sponsors renders correctly 1`] = `
                       "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
-                      "width": "140px",
+                      "width": "130px",
                     },
-                    "marginTop": "18px",
-                    "width": "200px",
+                    "marginTop": "5px",
+                    "width": "160px",
                   }
                 }
                 src="test-file-stub"
@@ -648,14 +671,43 @@ exports[`Sponsors renders correctly 1`] = `
       <div
         css={
           Object {
+            "@media(max-width: 610px)": Object {
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "0px",
+            },
+            "@media(max-width: 920px)": Object {
+              "gridTemplateColumns": "1fr 1fr",
+              "marginBottom": "10px",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "width": "60%",
+            },
             "display": "grid",
-            "gridTemplateColumns": "1fr",
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "width": "100%",
+            "gridTemplateColumns": "1fr 1fr 1fr 1fr",
           }
         }
       >
+        <_default
+          url="https://wolfram.com/language/"
+        >
+          <img
+            alt="Wolfram Logo"
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "marginTop": "20px",
+                  "width": "90px",
+                },
+                "@media(max-width: 920px)": Object {
+                  "marginBottom": "10px",
+                  "width": "120px",
+                },
+                "width": "150px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
         <_default
           url="https://wake-ups.com"
         >
@@ -664,13 +716,58 @@ exports[`Sponsors renders correctly 1`] = `
             css={
               Object {
                 "@media(max-width: 610px)": Object {
-                  "marginTop": "10px",
+                  "marginTop": "5px",
                   "width": "60px",
                 },
                 "@media(max-width: 920px)": Object {
+                  "marginBottom": "10px",
                   "width": "80px",
                 },
+                "marginTop": "-10px",
                 "width": "100px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://indico.io"
+        >
+          <img
+            alt="Indico Logo"
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "marginTop": "5px",
+                  "width": "60px",
+                },
+                "@media(max-width: 920px)": Object {
+                  "marginBottom": "10px",
+                  "width": "90px",
+                },
+                "marginTop": "10px",
+                "width": "120px",
+              }
+            }
+            src="test-file-stub"
+          />
+        </_default>
+        <_default
+          url="https://www.launchacademy.ca/"
+        >
+          <img
+            alt="Launch Academy Logo"
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "marginTop": "10px",
+                  "width": "90px",
+                },
+                "@media(max-width: 920px)": Object {
+                  "width": "140px",
+                },
+                "marginTop": "10px",
+                "width": "180px",
               }
             }
             src="test-file-stub"
@@ -826,6 +923,76 @@ exports[`Sponsors renders correctly 1`] = `
                   },
                   "marginTop": "25px",
                   "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "@media(max-width: 570px)": Object {
+                "marginBottom": "20px",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <_default
+            url="https://dining.queensu.ca/"
+          >
+            <img
+              alt="Sodexo and Coca-Cola Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "230px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "310px",
+                  },
+                  "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "@media(max-width: 570px)": Object {
+                "marginBottom": "20px",
+              },
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "40px",
+            }
+          }
+        >
+          <_default
+            url="https://www.cityofkingston.ca/city-hall/projects-construction/mayors-innovation-challenge"
+          >
+            <img
+              alt="City of Kingston Logo"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "100px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "120px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "150px",
+                  },
+                  "width": "180px",
                 }
               }
               src="test-file-stub"

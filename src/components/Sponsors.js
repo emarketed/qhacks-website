@@ -8,6 +8,7 @@ import tdLogo from "../assets/img/sponsors/td.svg";
 import qicLogo from "../assets/img/sponsors/qic.svg";
 import dclLogo from "../assets/img/sponsors/dcl.svg";
 import eceLogo from "../assets/img/sponsors/ece.svg";
+import cseLogo from "../assets/img/sponsors/cse.svg";
 // import amsLogo from "../assets/img/sponsors/ams.svg";
 import iganLogo from "../assets/img/sponsors/igan.svg";
 import mmieLogo from "../assets/img/sponsors/mmie.svg";
@@ -20,12 +21,17 @@ import loopioLogo from "../assets/img/sponsors/loopio.svg";
 import tucowsLogo from "../assets/img/sponsors/tucows.svg";
 import stdlibLogo from "../assets/img/sponsors/stdlib.svg";
 import mosaicLogo from "../assets/img/sponsors/mosaic.svg";
+import apolloLogo from "../assets/img/sponsors/apollo.svg";
+import googleLogo from "../assets/img/sponsors/google.svg";
+import indicoLogo from "../assets/img/sponsors/indico.svg";
+import sodexoLogo from "../assets/img/sponsors/sodexo.svg";
 import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
 import sunLifeLogo from "../assets/img/sponsors/sunlife.svg";
 import wolframLogo from "../assets/img/sponsors/wolfram.svg";
 import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
 import deloitteLogo from "../assets/img/sponsors/deloitte.svg";
 import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
+import kingstonLogo from "../assets/img/sponsors/kingston.svg";
 import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import consensysLogo from "../assets/img/sponsors/consensys.svg";
 import orangeGateLogo from "../assets/img/sponsors/orangeGate.svg";
@@ -382,7 +388,10 @@ const Sponsors = () => (
             <div
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr",
+                gridTemplateColumns: "1fr 1fr",
+                width: "60%",
+                marginLeft: "auto",
+                marginRight: "auto",
                 marginBottom: "50px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
@@ -404,6 +413,22 @@ const Sponsors = () => (
                     }
                   }}
                   alt="Deloitte Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.cse-cst.gc.ca/en">
+                <img
+                  src={cseLogo}
+                  css={{
+                    width: "230px",
+                    "@media(max-width: 910px)": {
+                      width: "160px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "120px",
+                      marginBottom: "20px"
+                    }
+                  }}
+                  alt="Communications Security Establishment Logo"
                 />
               </SponsorLink>
             </div>
@@ -447,9 +472,9 @@ const Sponsors = () => (
                   alt="Balsamiq Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://wolfram.com/language/">
+              <SponsorLink url="https://careers.google.com/">
                 <img
-                  src={wolframLogo}
+                  src={googleLogo}
                   css={{
                     width: "150px",
                     "@media(max-width: 920px)": {
@@ -460,7 +485,7 @@ const Sponsors = () => (
                       marginBottom: "10px"
                     }
                   }}
-                  alt="Wolfram Logo"
+                  alt="Google Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://ritual.co">
@@ -506,7 +531,7 @@ const Sponsors = () => (
                 marginLeft: "auto",
                 marginRight: "auto",
                 width: "100%",
-                marginBottom: "40px",
+                marginBottom: "50px",
                 "@media(max-width: 920px)": {
                   gridTemplateColumns: "1fr 1fr",
                   width: "60%",
@@ -542,32 +567,32 @@ const Sponsors = () => (
                   src={mosaicLogo}
                   css={{
                     width: "150px",
+                    marginTop: "14px",
                     "@media(max-width: 920px)": {
-                      width: "130px",
-                      marginBottom: "10px"
+                      width: "130px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "100px"
+                      width: "90px"
                     }
                   }}
                   alt="Mosaic Manufacturing Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.launchacademy.ca/">
+              <SponsorLink url="https://www.apollographql.com/">
                 <img
-                  src={launchAcademyLogo}
+                  src={apolloLogo}
                   css={{
-                    width: "200px",
-                    marginTop: "18px",
+                    width: "160px",
+                    marginTop: "5px",
                     "@media(max-width: 920px)": {
-                      width: "140px"
+                      width: "130px"
                     },
                     "@media(max-width: 610px)": {
                       width: "90px",
                       marginTop: "10px"
                     }
                   }}
-                  alt="Launch Academy Logo"
+                  alt="Apollo Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://www.orangegate.ca/">
@@ -595,26 +620,88 @@ const Sponsors = () => (
         <div
           css={{
             display: "grid",
-            gridTemplateColumns: "1fr",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "100%"
+            gridTemplateColumns: "1fr 1fr 1fr 1fr",
+            "@media(max-width: 920px)": {
+              gridTemplateColumns: "1fr 1fr",
+              width: "60%",
+              marginLeft: "auto",
+              marginRight: "auto",
+              marginBottom: "10px"
+            },
+            "@media(max-width: 610px)": {
+              gridTemplateColumns: "1fr",
+              marginBottom: "0px"
+            }
           }}
         >
+          <SponsorLink url="https://wolfram.com/language/">
+            <img
+              src={wolframLogo}
+              css={{
+                width: "150px",
+                "@media(max-width: 920px)": {
+                  width: "120px",
+                  marginBottom: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "90px",
+                  marginTop: "20px"
+                }
+              }}
+              alt="Wolfram Logo"
+            />
+          </SponsorLink>
           <SponsorLink url="https://wake-ups.com">
             <img
               src={wakeupsLogo}
               css={{
                 width: "100px",
+                marginTop: "-10px",
                 "@media(max-width: 920px)": {
-                  width: "80px"
+                  width: "80px",
+                  marginBottom: "10px"
                 },
                 "@media(max-width: 610px)": {
                   width: "60px",
-                  marginTop: "10px"
+                  marginTop: "5px"
                 }
               }}
               alt="Wakeups Logo"
+            />
+          </SponsorLink>
+          <SponsorLink url="https://indico.io">
+            <img
+              src={indicoLogo}
+              css={{
+                width: "120px",
+                marginTop: "10px",
+                "@media(max-width: 920px)": {
+                  width: "90px",
+                  marginBottom: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "60px",
+                  marginTop: "5px"
+                }
+              }}
+              alt="Indico Logo"
+            />
+          </SponsorLink>
+          <SponsorLink url="https://www.launchacademy.ca/">
+            <img
+              src={launchAcademyLogo}
+              css={{
+                width: "180px",
+                marginTop: "10px",
+                "@media(max-width: 920px)": {
+                  width: "140px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "90px",
+                  marginTop: "10px"
+                }
+              }}
+              alt="Launch Academy Logo"
             />
           </SponsorLink>
         </div>
@@ -751,6 +838,68 @@ const Sponsors = () => (
           <div
             css={{
               display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "20px",
+              "@media(max-width: 570px)": {
+                marginBottom: "20px"
+              }
+            }}
+          >
+            <SponsorLink url="https://dining.queensu.ca/">
+              <img
+                src={sodexoLogo}
+                css={{
+                  width: "400px",
+                  "@media(max-width: 980px)": {
+                    width: "310px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "250px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "230px"
+                  }
+                }}
+                alt="Sodexo and Coca-Cola Logo"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 4 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "40px",
+              "@media(max-width: 570px)": {
+                marginBottom: "20px"
+              }
+            }}
+          >
+            <SponsorLink url="https://www.cityofkingston.ca/city-hall/projects-construction/mayors-innovation-challenge">
+              <img
+                src={kingstonLogo}
+                css={{
+                  width: "180px",
+                  "@media(max-width: 980px)": {
+                    width: "150px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "120px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "100px"
+                  }
+                }}
+                alt="City of Kingston Logo"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 5 */}
+          <div
+            css={{
+              display: "grid",
               gridTemplateColumns: "1fr 1fr 1fr",
               marginBottom: "40px",
               "@media(max-width: 570px)": {
@@ -818,7 +967,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 4 */}
+          {/* School Row 6 */}
           <div
             css={{
               display: "grid",
@@ -846,7 +995,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 5 */}
+          {/* School Row 7 */}
           {/* <div
             css={{
               display: "grid",
