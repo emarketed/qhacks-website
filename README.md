@@ -24,6 +24,10 @@ about the technical specifications please refer to the
 
 Utilize the scripts below in the root of the project to get started:
 
+**Install dependencies:**
+
+`npm run install`
+
 **Build the website:**
 
 `npm run build`
