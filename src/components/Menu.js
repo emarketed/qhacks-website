@@ -18,7 +18,11 @@ const Menu = (props) => {
         css={{
           transition: "0.5s",
           "@media(min-width:820px)": {
-            display: props.standaloneVersion ? "inline-block" : (props.imgCss ? "inline-block" : "none")
+            display: props.standaloneVersion
+              ? "inline-block"
+              : props.imgCss
+                ? "inline-block"
+                : "none"
           }
         }}
       >
@@ -39,7 +43,11 @@ const Menu = (props) => {
         css={{
           display: "none",
           "@media(min-width:820px)": {
-            display: props.standaloneVersion ? "none" : (props.imgCss ? "none" : "inline-block")
+            display: props.standaloneVersion
+              ? "none"
+              : props.imgCss
+                ? "none"
+                : "inline-block"
           },
           transition: "0.5s"
         }}
@@ -77,6 +85,7 @@ const Menu = (props) => {
               .map(() => "min-content ")
               .reduce((a, b) => a + b)
           }}
+          offset={-1}
           items={props.menuItems}
           currentClassName="is-current"
         >

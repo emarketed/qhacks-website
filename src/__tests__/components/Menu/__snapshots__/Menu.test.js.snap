@@ -95,7 +95,7 @@ exports[`Menu renders correctly 1`] = `
           "TEST",
         ]
       }
-      offset={0}
+      offset={-1}
       onUpdate={[Function]}
       style={Object {}}
     >
