@@ -904,6 +904,37 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
+              "marginBottom": "20px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <_default
+            url="http://www.cs.queensu.ca/"
+          >
+            <img
+              alt="Queen's School of Computing"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "300px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "350px",
+                  },
+                  "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
               "@media(max-width: 570px)": Object {
                 "gridTemplateColumns": "1fr",
                 "marginBottom": "20px",

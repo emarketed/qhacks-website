@@ -39,6 +39,7 @@ describe("Sponsors", () => {
       "https://indico.io",
       "https://www.launchacademy.ca/",
       "https://www.ece.queensu.ca/",
+      "http://www.cs.queensu.ca/",
       "https://smith.queensu.ca/grad_studies/mei/",
       "https://queensu.ca/innovationcentre/",
       "https://dining.queensu.ca/",
