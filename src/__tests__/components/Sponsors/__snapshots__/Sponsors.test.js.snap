@@ -116,6 +116,37 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
+              "marginBottom": "20px",
+              "marginTop": "120px",
+            }
+          }
+        >
+          <_default
+            url="https://snap.com/"
+          >
+            <img
+              alt="Snap Inc"
+              css={
+                Object {
+                  "@media(max-width: 500px)": Object {
+                    "width": "200px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "350px",
+                  },
+                  "width": "450px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
               "@media(max-width: 500px)": Object {
                 "marginBottom": "60px",
               },

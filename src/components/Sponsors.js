@@ -12,6 +12,7 @@ import cseLogo from "../assets/img/sponsors/cse.svg";
 // import amsLogo from "../assets/img/sponsors/ams.svg";
 import iganLogo from "../assets/img/sponsors/igan.svg";
 import mmieLogo from "../assets/img/sponsors/mmie.svg";
+import snapLogo from "../assets/img/sponsors/snap.svg";
 import telusLogo from "../assets/img/sponsors/telus.svg";
 import mlhLogo from "../assets/img/sponsors/mlhText.svg";
 import githubLogo from "../assets/img/sponsors/github.svg";
@@ -142,6 +143,26 @@ const Sponsors = () => (
           </div>
 
           {/* Giga */}
+          <div css={{ marginTop: "120px", marginBottom: "20px" }}>
+            <SponsorLink url="https://snap.com/">
+              <img
+                src={snapLogo}
+                alt="Snap Inc"
+                css={{
+                  width: "450px",
+                  "@media(max-width: 980px)": {
+                    width: "350px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "250px"
+                  },
+                  "@media(max-width: 500px)": {
+                    width: "200px"
+                  }
+                }}
+              />
+            </SponsorLink>
+          </div>
           <div
             css={{
               marginBottom: "80px",
