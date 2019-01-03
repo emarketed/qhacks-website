@@ -13,11 +13,11 @@ describe("Sponsors", () => {
     const sponsorURLs = [
       "https://tucows.com",
       "https://stdlib.com/",
-      "https://snap.com/",
       "https://sunlife.ca",
       "http://www.iganpartners.com/",
       "https://distributed.computer/",
       "https://www.nbc.ca/",
+      "https://snap.com/",
       "https://consensys.net/",
       "https://td.ca",
       "https://ratehub.ca",

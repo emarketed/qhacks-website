@@ -144,26 +144,6 @@ const Sponsors = () => (
           </div>
 
           {/* Giga */}
-          <div css={{ marginTop: "120px", marginBottom: "20px" }}>
-            <SponsorLink url="https://snap.com/">
-              <img
-                src={snapLogo}
-                alt="Snap Inc"
-                css={{
-                  width: "450px",
-                  "@media(max-width: 980px)": {
-                    width: "350px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 500px)": {
-                    width: "200px"
-                  }
-                }}
-              />
-            </SponsorLink>
-          </div>
           <div
             css={{
               marginBottom: "80px",
@@ -229,8 +209,10 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
+                marginBottom: "40px",
                 "@media(max-width: 500px)": {
-                  gridTemplateColumns: "1fr"
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "40px"
                 }
               }}
             >
@@ -256,7 +238,6 @@ const Sponsors = () => (
                 <img
                   css={{
                     width: "450px",
-
                     "@media(max-width: 980px)": {
                       width: "330px"
                     },
@@ -270,6 +251,35 @@ const Sponsors = () => (
                   }}
                   src={nationalBankLogo}
                   alt="National Bank Logo"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Giga Row 3 */}
+
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "60px"
+              }}
+            >
+              <SponsorLink url="https://snap.com/">
+                <img
+                  src={snapLogo}
+                  alt="Snap Inc."
+                  css={{
+                    width: "400px",
+                    "@media(max-width: 980px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "200px"
+                    },
+                    "@media(max-width: 500px)": {
+                      width: "190px"
+                    }
+                  }}
                 />
               </SponsorLink>
             </div>
@@ -806,7 +816,14 @@ const Sponsors = () => (
           </div>
 
           {/* School Row 2 */}
-          <div css={{ marginTop: "20px", marginBottom: "20px" }}>
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginTop: "20px",
+              marginBottom: "20px"
+            }}
+          >
             <SponsorLink url="http://www.cs.queensu.ca/">
               <img
                 src={schoolOfComputingLogo}
@@ -814,13 +831,13 @@ const Sponsors = () => (
                 css={{
                   width: "400px",
                   "@media(max-width: 980px)": {
-                    width: "350px"
+                    width: "310px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "300px"
+                    width: "250px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "230px"
                   }
                 }}
               />
