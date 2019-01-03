@@ -188,9 +188,11 @@ exports[`Sponsors renders correctly 1`] = `
               Object {
                 "@media(max-width: 500px)": Object {
                   "gridTemplateColumns": "1fr",
+                  "marginBottom": "40px",
                 },
                 "display": "grid",
                 "gridTemplateColumns": "1fr 1fr",
+                "marginBottom": "40px",
               }
             }
           >
@@ -234,6 +236,38 @@ exports[`Sponsors renders correctly 1`] = `
                       "width": "330px",
                     },
                     "width": "450px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "display": "grid",
+                "gridTemplateColumns": "1fr",
+                "marginBottom": "60px",
+              }
+            }
+          >
+            <_default
+              url="https://snap.com/"
+            >
+              <img
+                alt="Snap Inc."
+                css={
+                  Object {
+                    "@media(max-width: 500px)": Object {
+                      "width": "190px",
+                    },
+                    "@media(max-width: 680px)": Object {
+                      "width": "200px",
+                    },
+                    "@media(max-width: 980px)": Object {
+                      "width": "300px",
+                    },
+                    "width": "400px",
                   }
                 }
                 src="test-file-stub"
@@ -864,6 +898,39 @@ exports[`Sponsors renders correctly 1`] = `
                     "width": "130px",
                   },
                   "width": "200px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+        </div>
+        <div
+          css={
+            Object {
+              "display": "grid",
+              "gridTemplateColumns": "1fr",
+              "marginBottom": "20px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <_default
+            url="http://www.cs.queensu.ca/"
+          >
+            <img
+              alt="Queen's School of Computing"
+              css={
+                Object {
+                  "@media(max-width: 460px)": Object {
+                    "width": "230px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "250px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "310px",
+                  },
+                  "width": "400px",
                 }
               }
               src="test-file-stub"

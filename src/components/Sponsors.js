@@ -12,6 +12,7 @@ import cseLogo from "../assets/img/sponsors/cse.svg";
 // import amsLogo from "../assets/img/sponsors/ams.svg";
 import iganLogo from "../assets/img/sponsors/igan.svg";
 import mmieLogo from "../assets/img/sponsors/mmie.svg";
+import snapLogo from "../assets/img/sponsors/snap.svg";
 import telusLogo from "../assets/img/sponsors/telus.svg";
 import mlhLogo from "../assets/img/sponsors/mlhText.svg";
 import githubLogo from "../assets/img/sponsors/github.svg";
@@ -40,6 +41,7 @@ import onePasswordLogo from "../assets/img/sponsors/1password.svg";
 import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
 import nationalBankLogo from "../assets/img/sponsors/nationalbank.svg";
 import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
+import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.svg";
 
 const Sponsors = () => (
   <section
@@ -207,8 +209,10 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
+                marginBottom: "40px",
                 "@media(max-width: 500px)": {
-                  gridTemplateColumns: "1fr"
+                  gridTemplateColumns: "1fr",
+                  marginBottom: "40px"
                 }
               }}
             >
@@ -234,7 +238,6 @@ const Sponsors = () => (
                 <img
                   css={{
                     width: "450px",
-
                     "@media(max-width: 980px)": {
                       width: "330px"
                     },
@@ -248,6 +251,35 @@ const Sponsors = () => (
                   }}
                   src={nationalBankLogo}
                   alt="National Bank Logo"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Giga Row 3 */}
+
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "60px"
+              }}
+            >
+              <SponsorLink url="https://snap.com/">
+                <img
+                  src={snapLogo}
+                  alt="Snap Inc."
+                  css={{
+                    width: "400px",
+                    "@media(max-width: 980px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "200px"
+                    },
+                    "@media(max-width: 500px)": {
+                      width: "190px"
+                    }
+                  }}
                 />
               </SponsorLink>
             </div>
@@ -787,6 +819,35 @@ const Sponsors = () => (
           <div
             css={{
               display: "grid",
+              gridTemplateColumns: "1fr",
+              marginTop: "20px",
+              marginBottom: "20px"
+            }}
+          >
+            <SponsorLink url="http://www.cs.queensu.ca/">
+              <img
+                src={schoolOfComputingLogo}
+                alt="Queen's School of Computing"
+                css={{
+                  width: "400px",
+                  "@media(max-width: 980px)": {
+                    width: "310px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "250px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "230px"
+                  }
+                }}
+              />
+            </SponsorLink>
+          </div>
+
+          {/* School Row 3 */}
+          <div
+            css={{
+              display: "grid",
               gridTemplateColumns: "1fr 1fr",
               marginBottom: "40px",
               "@media(max-width: 570px)": {
@@ -834,7 +895,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 3 */}
+          {/* School Row 4 */}
           <div
             css={{
               display: "grid",
@@ -865,7 +926,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 4 */}
+          {/* School Row 5 */}
           <div
             css={{
               display: "grid",
@@ -896,7 +957,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 5 */}
+          {/* School Row 6 */}
           <div
             css={{
               display: "grid",
