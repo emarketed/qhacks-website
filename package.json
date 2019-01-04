@@ -1,6 +1,6 @@
 {
   "name": "qhacks-website",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "description": "Website for QHacks!",
   "author": "QHacks Engineering",
   "homepage": "https://github.com/qhacks/qhacks-website#readme",
@@ -39,7 +39,7 @@
   "dependencies": {
     "@sentry/browser": "^4.2.4",
     "axios": "^0.18.0",
-    "gatsby": "^2.0.31",
+    "gatsby": "^2.0.64",
     "gatsby-plugin-glamor": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.6",
