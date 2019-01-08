@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import ApolloClient from "apollo-boost";
 import ActionButton from "./ActionButton";
+import fetch from "unfetch";
 import * as Sentry from "@sentry/browser";
+import gql from "graphql-tag";
 
 import circleCheckWhite from "../assets/img/icons/circleSuccess-white.svg";
 import circleTimesWhite from "../assets/img/icons/circleError-white.svg";
@@ -8,7 +11,29 @@ import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
 import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
-import axios from "axios";
+
+const CREATE_MAILING_LIST_SUBSCRIPTION_QUERY = gql`
+  mutation CreateMailingListSubscription(
+    $eventSlug: String!
+    $mailingListSlug: String!
+    $input: MailingListSubscriberInput!
+  ) {
+    mailingListSubscriberCreate(
+      eventSlug: $eventSlug
+      mailingListSlug: $mailingListSlug
+      input: $input
+    ) {
+      subscriber {
+        email
+      }
+    }
+  }
+`;
+
+const Client = new ApolloClient({
+  uri: "https://app.qhacks.io/graphql",
+  fetch
+});
 
 class SignUpForm extends Component {
   state = {
@@ -48,38 +73,44 @@ class SignUpForm extends Component {
     const email = this.state.emailAddress;
     const baseUrl = "https://app.qhacks.io";
     this.setStatusLoading();
-    axios
-      .post(`${baseUrl}/api/subscribe`, {
-        email,
-        event: "qhacks-2019",
-        name: "announcements-newsletter"
-      })
-      .then((response) => {
-        if (!response.code || (response.code >= 200 && response.code <= 299)) {
-          this.setStatusSuccess(email);
-        } else {
-          this.setStatusFailure(response.message);
+
+    Client.mutate({
+      mutation: CREATE_MAILING_LIST_SUBSCRIPTION_QUERY,
+      variables: {
+        mailingListSlug: "announcements-newsletter",
+        eventSlug: "qhacks-2019",
+        input: {
+          email
+        }
+      }
+    })
+      .then((res) => {
+        try {
+          return this.setStatusSuccess(
+            res.data.mailingListSubscriberCreate.subscriber.email
+          );
+        } catch (err) {
+          console.log(err);
+          Sentry.captureException(err);
+          return this.setStatusFailure(
+            "Something went wrong - please try again later."
+          );
         }
       })
       .catch((err) => {
-        const { response } = err;
-        if (response && response.status) {
-          if (response.status === 400) {
-            this.setStatusFailure("This email has already been subscribed!");
-          } else if (response.status === 422) {
-            this.setStatusFailure("Please provide a valid email address!");
-          } else {
-            Sentry.captureException(err);
-            this.setStatusFailure(
-              "Something went wrong – please try again later."
-            );
-          }
-        } else {
-          Sentry.captureException(err);
-          this.setStatusFailure(
-            "Something went wrong – please try again later."
-          );
+        Sentry.captureException(err);
+        if (
+          err.graphQLErrors &&
+          err.graphQLErrors[0] &&
+          err.graphQLErrors[0].extensions &&
+          err.graphQLErrors[0].extensions.code === "EMAIL_ALREADY_SUBSCRIBED"
+        ) {
+          return this.setStatusFailure(`${email} has already been signed up!`);
         }
+
+        return this.setStatusFailure(
+          "Something went wrong - please try again later."
+        );
       });
   }
 
