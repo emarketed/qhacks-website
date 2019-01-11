@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import ApolloClient from "apollo-boost";
 import ActionButton from "./ActionButton";
-import fetch from "unfetch";
+import { graphql } from "react-apollo";
 import * as Sentry from "@sentry/browser";
 import gql from "graphql-tag";
 
@@ -12,7 +11,7 @@ import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
 
-const CREATE_MAILING_LIST_SUBSCRIPTION_QUERY = gql`
+const CREATE_MAILING_LIST_SUBSCRIPTION_MUTATION = gql`
   mutation CreateMailingListSubscription(
     $eventSlug: String!
     $mailingListSlug: String!
@@ -29,11 +28,6 @@ const CREATE_MAILING_LIST_SUBSCRIPTION_QUERY = gql`
     }
   }
 `;
-
-const Client = new ApolloClient({
-  uri: "https://app.qhacks.io/graphql",
-  fetch
-});
 
 class SignUpForm extends Component {
   state = {
@@ -71,26 +65,25 @@ class SignUpForm extends Component {
 
   signUp() {
     const email = this.state.emailAddress;
-    const baseUrl = "https://app.qhacks.io";
+
     this.setStatusLoading();
 
-    Client.mutate({
-      mutation: CREATE_MAILING_LIST_SUBSCRIPTION_QUERY,
-      variables: {
-        mailingListSlug: "announcements-newsletter",
-        eventSlug: "qhacks-2019",
-        input: {
-          email
+    this.props
+      .mutate({
+        variables: {
+          mailingListSlug: "announcements-newsletter",
+          eventSlug: "qhacks-2019",
+          input: {
+            email
+          }
         }
-      }
-    })
+      })
       .then((res) => {
         try {
           return this.setStatusSuccess(
             res.data.mailingListSubscriberCreate.subscriber.email
           );
         } catch (err) {
-          console.log(err);
           Sentry.captureException(err);
           return this.setStatusFailure(
             "Something went wrong - please try again later."
@@ -223,4 +216,4 @@ class SignUpForm extends Component {
   }
 }
 
-export default SignUpForm;
+export default graphql(CREATE_MAILING_LIST_SUBSCRIPTION_MUTATION)(SignUpForm);

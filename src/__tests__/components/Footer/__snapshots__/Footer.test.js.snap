@@ -107,7 +107,7 @@ exports[`Footer renders correctly 1`] = `
             query="screen and (max-width: 950px)"
             values={Object {}}
           >
-            <SignUpForm
+            <Apollo(SignUpForm)
               backgroundColor="#c81c2e"
               center={true}
               dataCy="footer-signup-button"
@@ -119,7 +119,7 @@ exports[`Footer renders correctly 1`] = `
             query="screen and (min-width: 950px)"
             values={Object {}}
           >
-            <SignUpForm
+            <Apollo(SignUpForm)
               backgroundColor="#c81c2e"
               dataCy="footer-signup-button"
               fontSize={14}
