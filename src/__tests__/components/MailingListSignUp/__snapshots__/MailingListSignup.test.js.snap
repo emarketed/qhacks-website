@@ -34,7 +34,7 @@ exports[`MailingListSignup renders correctly 1`] = `
     >
       Sign up for our mailing list to receive important QHacks announcements!
     </p>
-    <SignUpForm
+    <Apollo(SignUpForm)
       center={true}
       dataCyButton="mailing-list-button"
       dataCyInput="mailing-list-input"
