@@ -48,13 +48,13 @@ exports[`Mentors renders correctly 1`] = `
       borderColor="#fedb01"
       companyLogo="test-file-stub"
       companyName="Google"
-      companyUrl="https://www.google.com"
+      companyUrl="https://careers.google.com"
       headshot="test-file-stub"
-      key="Vivek Chacha"
+      key="Vivek Chachcha"
       logoHeight="80px"
       logoMarginTop="-20px"
-      name="Vivek Chacha"
-      title="Software Engineer"
+      name="Vivek Chachcha"
+      title="Product Technology Manager"
     />
     <_default
       borderColor="#c81c2e"
