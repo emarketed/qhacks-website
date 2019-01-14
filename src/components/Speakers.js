@@ -5,17 +5,17 @@ import Mentors from "./Mentors";
 
 import cubes3webp from "../assets/img/icons/cubes-3.webp";
 import cubes3png from "../assets/img/icons/cubes-3.png";
-import jacob from "../assets/img/speakers/jacobAndreou.jpg";
+import david from "../assets/img/speakers/davidHariri.jpg";
 import kaheer from "../assets/img/speakers/kaheerSuleman.jpg";
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
   {
-    name: "Jacob Andreou",
-    title: "VP of Product at Snap",
+    name: "David Hariri",
+    title: "Co-Founder of Ada",
     description:
-      "Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen's University's Biomedical Computing program and then started his career at Snap in Product Design. He now serves as Snap's Vice President of Product leading all product development and teams of Designers, Product Managers, Data Scientists and User Researchers.",
-    image: jacob
+      "David is the Co-Founder and current Head of Design at Ada. He graduated from Queen’s University’s Geological and Earth Sciences program in 2012. At Ada, he is designing and built tools that allow companies to answer common questions automatically, improving customer satisfaction and saving everyone's time. Ada is used by Telus, Medium, Wattpad, Shopify and millions of their customers.",
+    image: david
   },
   {
     name: "Kaheer Suleman",
