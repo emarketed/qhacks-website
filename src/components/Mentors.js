@@ -16,7 +16,7 @@ import john from "../assets/img/mentors/headshots/johnMartin.jpg";
 import fitz from "../assets/img/mentors/headshots/nicoleFitz.png";
 import layne from "../assets/img/mentors/headshots/layneLafrance.jpg";
 import eric from "../assets/img/mentors/headshots/ericBraun.jpg";
-import vivek from "../assets/img/mentors/headshots/vivekChacha.jpg";
+import vivek from "../assets/img/mentors/headshots/vivekChachcha.jpg";
 import enoch from "../assets/img/mentors/headshots/enochTam.jpg";
 import graham from "../assets/img/mentors/headshots/grahamMiller.jpg";
 import zach from "../assets/img/mentors/headshots/zackHarley.jpg";
@@ -33,12 +33,12 @@ const mentors = [
     companyUrl: "https://www.qualcomm.com/"
   },
   {
-    name: "Vivek Chacha",
-    title: "Software Engineer",
+    name: "Vivek Chachcha",
+    title: "Product Technology Manager",
     headshot: vivek,
     companyLogo: google,
     companyName: "Google",
-    companyUrl: "https://www.google.com",
+    companyUrl: "https://careers.google.com",
     logoMarginTop: "-20px",
     logoHeight: "80px"
   },
