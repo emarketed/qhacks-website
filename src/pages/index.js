@@ -43,13 +43,10 @@ export default () => {
     });
   }
 
-  const BASE_URL = {
-    development: "http://localhost:3000/graphql",
-    production: "https://app.qhacks.io/graphql"
-  };
+  const BASE_URL = "https://app.qhacks.io/graphql";
 
   const apolloClient = new ApolloClient({
-    uri: BASE_URL[environment] || "https://app.qhacks.io/graphql",
+    uri: BASE_URL,
     fetch
   });
 
