@@ -45,11 +45,11 @@ exports[`Speakers renders correctly 1`] = `
       }
     >
       <SpeakerCard
-        description="Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen's University's Biomedical Computing program and then started his career at Snap in Product Design. He now serves as Snap's Vice President of Product leading all product development and teams of Designers, Product Managers, Data Scientists and User Researchers."
+        description="David is the Co-Founder and current Head of Design at Ada. He graduated from Queen’s University’s Geological and Earth Sciences program in 2012. At Ada, he is designing and built tools that allow companies to answer common questions automatically, improving customer satisfaction and saving everyone's time. Ada is used by Telus, Medium, Wattpad, Shopify and millions of their customers."
         image="test-file-stub"
-        key="Jacob Andreou"
-        name="Jacob Andreou"
-        title="VP of Product at Snap"
+        key="David Hariri"
+        name="David Hariri"
+        title="Co-Founder of Ada"
       />
       <SpeakerCard
         description="Kaheer is a Principal Research Program Manager at the Microsoft Research Montreal lab.  Kaheer co-founded the deep learning for language startup Maluuba and served as its CTO prior to its acquisition, by Microsoft,  in early 2017.  He currently works on machine learning approaches for natural language processing focusing on question answering, conversation systems and common sense reasoning."
@@ -73,10 +73,10 @@ exports[`Speakers renders correctly 1`] = `
         speakers={
           Array [
             Object {
-              "description": "Jacob is currently the VP of Product at Snap in Venice, California. He graduated from Queen's University's Biomedical Computing program and then started his career at Snap in Product Design. He now serves as Snap's Vice President of Product leading all product development and teams of Designers, Product Managers, Data Scientists and User Researchers.",
+              "description": "David is the Co-Founder and current Head of Design at Ada. He graduated from Queen’s University’s Geological and Earth Sciences program in 2012. At Ada, he is designing and built tools that allow companies to answer common questions automatically, improving customer satisfaction and saving everyone's time. Ada is used by Telus, Medium, Wattpad, Shopify and millions of their customers.",
               "image": "test-file-stub",
-              "name": "Jacob Andreou",
-              "title": "VP of Product at Snap",
+              "name": "David Hariri",
+              "title": "Co-Founder of Ada",
             },
             Object {
               "description": "Kaheer is a Principal Research Program Manager at the Microsoft Research Montreal lab.  Kaheer co-founded the deep learning for language startup Maluuba and served as its CTO prior to its acquisition, by Microsoft,  in early 2017.  He currently works on machine learning approaches for natural language processing focusing on question answering, conversation systems and common sense reasoning.",
