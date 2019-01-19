@@ -117,7 +117,7 @@ exports[`Landing renders correctly 1`] = `
               "color": "#575757",
               "fontWeight": 500,
               "lineHeight": "30px",
-              "paddingTop": "20px",
+              "padding": "20px 0 80px",
             }
           }
           data-cy="qhacks-tagline"
@@ -126,23 +126,6 @@ exports[`Landing renders correctly 1`] = `
           <br />
           Join us for an unforgettable experience!
         </h2>
-        <ActionButton
-          backgroundColor="#ffffff"
-          dataCy="login-button"
-          foregroundColor="#00205b"
-          link="https://app.qhacks.io/qhacks-2019/apply"
-          style={
-            Object {
-              "@media(max-width: 820px)": Object {
-                "margin": "30px 0 45px auto",
-              },
-              "margin": "25px 0 100px 0",
-            }
-          }
-          type="rounded"
-        >
-          Apply
-        </ActionButton>
       </div>
       <div
         css={
