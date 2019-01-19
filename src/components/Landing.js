@@ -42,7 +42,6 @@ const Landing = () => (
       >
         <div
           css={{
-            paddingTop: "115px",
             "@media(min-width: 1200px)": {
               paddingRight: "50px",
               paddingTop: "215px"
@@ -103,7 +102,7 @@ const Landing = () => (
           <h2
             data-cy="qhacks-tagline"
             css={{
-              padding: "20px 0 80px",
+              padding: "20px 0 100px",
               color: "#575757",
               fontWeight: 500,
               lineHeight: "30px",
