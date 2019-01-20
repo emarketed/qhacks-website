@@ -477,39 +477,6 @@ exports[`FAQs renders correctly 1`] = `
         <div
           css={
             Object {
-              "@media(max-width: 780px)": Object {
-                "paddingRight": "24px",
-              },
-              "padding": "0px 64px 40px 0px",
-            }
-          }
-          key="How do I apply?"
-        >
-          <h2
-            css={
-              Object {
-                "fontWeight": "500",
-                "paddingBottom": "10px",
-              }
-            }
-          >
-            How do I apply?
-          </h2>
-          <p
-            css={
-              Object {
-                "color": "#000000",
-                "fontSize": "14px",
-                "lineHeight": "20px",
-              }
-            }
-          >
-            Applications will roll out at the end of November, so make sure to stay in the loop by following our social media pages or signing up for our newsletter (link to top). You don't need to be an expert hacker or to have been to a hackathon before - we just want to see what makes you creative and unique!
-          </p>
-        </div>
-        <div
-          css={
-            Object {
               "paddingTop": "12px",
             }
           }

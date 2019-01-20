@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./Header";
-import ActionButton from "./ActionButton";
+// import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
 import landingImg from "../assets/img/icons/landingImg.svg";
@@ -9,12 +9,12 @@ import logo from "../assets/img/logo/qhacksCrown-colored.svg";
 import word from "../assets/img/logo/qhacksWordmark-colored.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
-const applyButtonCSS = {
-  margin: "25px 0 100px 0",
-  "@media(max-width: 820px)": {
-    margin: "30px 0 45px auto"
-  }
-};
+// const applyButtonCSS = {
+//   margin: "25px 0 100px 0",
+//   "@media(max-width: 820px)": {
+//     margin: "30px 0 45px auto"
+//   }
+// };
 
 const Landing = () => (
   <div
@@ -42,7 +42,6 @@ const Landing = () => (
       >
         <div
           css={{
-            paddingTop: "115px",
             "@media(min-width: 1200px)": {
               paddingRight: "50px",
               paddingTop: "215px"
@@ -103,7 +102,7 @@ const Landing = () => (
           <h2
             data-cy="qhacks-tagline"
             css={{
-              paddingTop: "20px",
+              padding: "20px 0 100px",
               color: "#575757",
               fontWeight: 500,
               lineHeight: "30px",
@@ -118,7 +117,7 @@ const Landing = () => (
             <br />
             Join us for an unforgettable experience!
           </h2>
-          <ActionButton
+          {/* <ActionButton
             dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
@@ -127,7 +126,7 @@ const Landing = () => (
             type="rounded"
           >
             Apply
-          </ActionButton>
+          </ActionButton> */}
         </div>
         <div
           css={{
