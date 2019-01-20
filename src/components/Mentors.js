@@ -7,9 +7,15 @@ import microsoft from "../assets/img/mentors/logos/microsoft.svg";
 import axiomZen from "../assets/img/mentors/logos/axiomZen.svg";
 import qualcomm from "../assets/img/mentors/logos/qualcomm.svg";
 import google from "../assets/img/mentors/logos/google.svg";
-import nest from "../assets/img/mentors/logos/nest.svg";
 import rbc from "../assets/img/mentors/logos/rbc.svg";
 import tenThousandCoffees from "../assets/img/mentors/logos/tenThousandCoffees.svg";
+import kindred from "../assets/img/mentors/logos/kindred.svg";
+import cortex from "../assets/img/mentors/logos/cortex.svg";
+import munvo from "../assets/img/mentors/logos/munvo.svg";
+import opencare from "../assets/img/mentors/logos/opencare.svg";
+import opener from "../assets/img/mentors/logos/opener.svg";
+import uber from "../assets/img/mentors/logos/uber.svg";
+import twoKeys from "../assets/img/mentors/logos/2keys.svg";
 
 // Mentor headshots
 import john from "../assets/img/mentors/headshots/johnMartin.jpg";
@@ -20,6 +26,14 @@ import vivek from "../assets/img/mentors/headshots/vivekChachcha.jpg";
 import enoch from "../assets/img/mentors/headshots/enochTam.jpg";
 import graham from "../assets/img/mentors/headshots/grahamMiller.jpg";
 import zach from "../assets/img/mentors/headshots/zackHarley.jpg";
+import stefan from "../assets/img/mentors/headshots/stefanSokic.jpg";
+import ivan from "../assets/img/mentors/headshots/ivanZhang.jpg";
+import alex from "../assets/img/mentors/headshots/alexAdusei.jpg";
+import alyssa from "../assets/img/mentors/headshots/alyssaKim.jpg";
+import emma from "../assets/img/mentors/headshots/emmaKoza.png";
+import ese from "../assets/img/mentors/headshots/eseOkonofua.jpeg";
+import khalid from "../assets/img/mentors/headshots/khalidKarim.jpg";
+import lydia from "../assets/img/mentors/headshots/lydiaNoureldin.jpg";
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
@@ -89,23 +103,90 @@ const mentors = [
     logoWidth: "40px",
     logoHeight: "60px"
   },
-  // {
-  //   name: "Stefan Sokic",
-  //   title: "Software Engineer",
-  //   headshot: stefan,
-  //   companyLogo: kindred,
-  //   companyName: "Kindred.ai",
-  //   companyUrl: "https://www.kindred.ai/"
-  // },
+  {
+    name: "Stefan Sokic",
+    title: "Software Engineer",
+    headshot: stefan,
+    companyLogo: kindred,
+    companyName: "Kindred.ai",
+    companyUrl: "https://www.kindred.ai/"
+  },
   {
     name: "Enoch Tam",
     title: "Software Engineer",
     headshot: enoch,
-    companyLogo: nest,
-    companyName: "Nest",
-    companyUrl: "https://nest.com",
+    companyLogo: google,
+    companyName: "Google",
+    companyUrl: "https://careers.google.com",
+    logoMarginTop: "-10px",
+    logoHeight: "80px"
+  },
+  {
+    name: "Ivan Zhang",
+    title: "Machine Learning Infrastructure Engineer",
+    headshot: ivan,
+    companyLogo: cortex,
+    companyName: "Cortex",
+    companyUrl: "https://www.cortex.net/",
+    logoMarginTop: "-15px",
+    logoHeight: "60px"
+  },
+  {
+    name: "Lydia Noureldin",
+    title: "Software Development Consultant",
+    headshot: lydia,
+    companyLogo: munvo,
+    companyName: "Munvo",
+    companyUrl: "https://munvo.com/",
+    logoMarginTop: "15px",
+    logoHeight: "30px"
+  },
+  {
+    name: "Ese Okonofua",
+    title: "Software Engineer",
+    headshot: ese,
+    companyLogo: microsoft,
+    companyName: "Microsoft",
+    companyUrl: "https://microsoft.com",
+    logoMarginTop: "10px"
+  },
+  {
+    name: "Alex Adusei",
+    title: "Software Engineer",
+    headshot: alex,
+    companyLogo: opener,
+    companyName: "Opener",
+    companyUrl: "https://www.opener.aero/",
+    logoHeight: "60px"
+  },
+  {
+    name: "Emma Koza",
+    title: "Software Engineer",
+    headshot: emma,
+    companyLogo: opencare,
+    companyName: "Opencare.com",
+    companyUrl: "https://opencare.com",
+    logoWidth: "200px",
+    logoMarginTop: "5px"
+  },
+  {
+    name: "Alyssa Kim",
+    title: "Cyber Security Analyst",
+    headshot: alyssa,
+    companyLogo: twoKeys,
+    companyName: "2Keys",
+    companyUrl: "https://2keys.ca/",
+    logoHeight: "40px",
+    logoMarginTop: "10px"
+  },
+  {
+    name: "Khalid Karim",
+    title: "Senior Product Manager",
+    headshot: khalid,
+    companyLogo: uber,
+    companyName: "Uber",
+    companyUrl: "https://uber.com",
     logoHeight: "30px",
-    logoWidth: "75px",
     logoMarginTop: "10px"
   }
 ];
