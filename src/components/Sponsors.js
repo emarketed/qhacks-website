@@ -725,12 +725,15 @@ const Sponsors = () => (
           css={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",
+            width: "65%",
+            margin: "10px auto 0",
             "@media(max-width: 920px)": {
               gridTemplateColumns: "1fr 1fr",
               width: "60%",
               marginLeft: "auto",
               marginRight: "auto",
-              marginBottom: "10px"
+              marginBottom: "10px",
+              marginTop: 0
             },
             "@media(max-width: 610px)": {
               gridTemplateColumns: "1fr",

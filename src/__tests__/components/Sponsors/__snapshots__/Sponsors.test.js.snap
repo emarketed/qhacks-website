@@ -796,10 +796,13 @@ exports[`Sponsors renders correctly 1`] = `
               "marginBottom": "10px",
               "marginLeft": "auto",
               "marginRight": "auto",
+              "marginTop": 0,
               "width": "60%",
             },
             "display": "grid",
             "gridTemplateColumns": "1fr 1fr",
+            "margin": "10px auto 0",
+            "width": "65%",
           }
         }
       >
