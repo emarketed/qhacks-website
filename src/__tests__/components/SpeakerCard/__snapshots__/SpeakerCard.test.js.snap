@@ -99,7 +99,7 @@ exports[`SpeakerCard renders correctly 1`] = `
             Object {
               "color": "#565656",
               "lineHeight": "1.43",
-              "marginBottom": "-178px",
+              "marginBottom": "-305px",
               "paddingBottom": "36px",
               "paddingTop": "24px",
               "textOverflow": "hidden",

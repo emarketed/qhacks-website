@@ -63,6 +63,7 @@ class SpeakerCard extends Component {
                 lineHeight: "20px",
                 overflow: "hidden",
                 transition: "1s",
+                // maxHeight: this.state.learnMoreToggled ? "" : "500px",
                 minHeight: this.state.learnMoreToggled ? "390px" : "210px"
               }}
             >
@@ -94,7 +95,7 @@ class SpeakerCard extends Component {
                     transition: "1s",
                     marginBottom: this.state.learnMoreToggled
                       ? "0px"
-                      : "-178px",
+                      : "-305px",
                     lineHeight: "1.43",
                     color: this.state.learnMoreToggled ? "#000000" : "#565656"
                   }}

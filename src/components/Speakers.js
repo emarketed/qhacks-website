@@ -7,6 +7,8 @@ import cubes3webp from "../assets/img/icons/cubes-3.webp";
 import cubes3png from "../assets/img/icons/cubes-3.png";
 import david from "../assets/img/speakers/davidHariri.jpg";
 import kaheer from "../assets/img/speakers/kaheerSuleman.jpg";
+import sarah from "../assets/img/speakers/sarahStockdale.jpg";
+
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
@@ -23,6 +25,13 @@ const speakers = [
     description:
       "Kaheer is a Principal Research Program Manager at the Microsoft Research Montreal lab.  Kaheer co-founded the deep learning for language startup Maluuba and served as its CTO prior to its acquisition, by Microsoft,  in early 2017.  He currently works on machine learning approaches for natural language processing focusing on question answering, conversation systems and common sense reasoning.",
     image: kaheer
+  },
+  {
+    name: "Sarah Stockdale",
+    title: "Founder & CEO of Valkerie",
+    description:
+      "Sarah is the Founder and CEO of Valkerie, a boutique tech growth consultancy based in Toronto ON. She’s spent her career working on early stage technology startups, starting as a foundational team member of Wave, a Canadian financial technology giant. More recently she led the International Community Growth team at the San Francisco payments startup, Tilt, which was acquired by Airbnb in 2017.",
+    image: sarah
   }
 ];
 
@@ -62,7 +71,7 @@ const Speakers = () => (
           gridTemplateColumns: speakers
             .map(() => "1fr ")
             .reduce((a, b) => a + b),
-          "@media(max-width: 820px)": {
+          "@media(max-width: 1120px)": {
             display: "none"
           }
         }}
@@ -75,7 +84,7 @@ const Speakers = () => (
       <div
         css={{
           paddingBottom: "30px",
-          "@media(min-width: 820px)": { display: "none" }
+          "@media(min-width: 1120px)": { display: "none" }
         }}
       >
         <SpeakerSlider speakers={speakers} />
