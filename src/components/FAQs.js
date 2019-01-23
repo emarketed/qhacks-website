@@ -15,7 +15,7 @@ const questionsAndAnswers = [
   {
     question: "Where is it?",
     answer:
-      "QHacks will be taking place at Queen's University in the city of Kingston, Ontario. The event will be held in Grant and Kingston Hall. Don’t worry about getting lost! We will have maps for you and volunteers all over campus to guide the way."
+      "QHacks will be taking place at Queen's University in the city of Kingston, Ontario. The event will be held in Mitchell Hall. Don’t worry about getting lost! We will have maps for you and volunteers all over campus to guide the way."
   },
   {
     question: "How much does it cost to attend?",
@@ -74,12 +74,12 @@ const questionsAndAnswers = [
     question: "What if I'm not from Kingston?",
     answer:
       "Encountering a 307 status? We'll be sending busses to Montreal, Ottawa, Toronto and Waterloo. If those aren't convenient for you, we'll be offering travel reimbursements on a case by case basis."
-  },
-  {
-    question: "How do I apply?",
-    answer:
-      "Applications will roll out at the end of November, so make sure to stay in the loop by following our social media pages or signing up for our newsletter (link to top). You don't need to be an expert hacker or to have been to a hackathon before - we just want to see what makes you creative and unique!"
-  }
+  }//,
+  // {
+  //   question: "How do I apply?",
+  //   answer:
+  //     "Applications will roll out at the end of November, so make sure to stay in the loop by following our social media pages or signing up for our newsletter (link to top). You don't need to be an expert hacker or to have been to a hackathon before - we just want to see what makes you creative and unique!"
+  // }
 ];
 
 const linkCss = {

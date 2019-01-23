@@ -35,6 +35,7 @@ import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
 import kingstonLogo from "../assets/img/sponsors/kingston.svg";
 import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
 import consensysLogo from "../assets/img/sponsors/consensys.svg";
+import ycombinator from "../assets/img/sponsors/ycombinator.svg";
 import orangeGateLogo from "../assets/img/sponsors/orangeGate.svg";
 import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
 import onePasswordLogo from "../assets/img/sponsors/1password.svg";
@@ -456,8 +457,7 @@ const Sponsors = () => (
                       width: "160px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "120px",
-                      marginBottom: "20px"
+                      width: "120px"
                     }
                   }}
                   alt="Communications Security Establishment Logo"
@@ -514,7 +514,8 @@ const Sponsors = () => (
                     },
                     "@media(max-width: 610px)": {
                       width: "90px",
-                      marginBottom: "10px"
+                      marginBottom: "10px",
+                      marginTop: "10px"
                     }
                   }}
                   alt="Google Logo"
@@ -537,20 +538,22 @@ const Sponsors = () => (
                   alt="Ritual Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://1password.com/">
+              <SponsorLink url="https://sketchapp.com">
                 <img
-                  src={onePasswordLogo}
+                  src={sketchLogo}
                   css={{
-                    width: "170px",
-                    marginTop: "5px",
+                    width: "200px",
+                    marginTop: "0px",
                     "@media(max-width: 920px)": {
-                      width: "140px"
+                      width: "140px",
+                      marginBottom: "20px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "90px"
+                      width: "90px",
+                      marginTop: "15px"
                     }
                   }}
-                  alt="One Password Logo"
+                  alt="Sketch Logo"
                 />
               </SponsorLink>
             </div>
@@ -577,62 +580,12 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://sketchapp.com">
+              <SponsorLink url="https://www.launchacademy.ca/">
                 <img
-                  src={sketchLogo}
+                  src={launchAcademyLogo}
                   css={{
-                    width: "200px",
-                    marginTop: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "140px",
-                      marginBottom: "20px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px"
-                    }
-                  }}
-                  alt="Sketch Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.mosaicmfg.com/">
-                <img
-                  src={mosaicLogo}
-                  css={{
-                    width: "150px",
-                    marginTop: "14px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px"
-                    }
-                  }}
-                  alt="Mosaic Manufacturing Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.apollographql.com/">
-                <img
-                  src={apolloLogo}
-                  css={{
-                    width: "160px",
-                    marginTop: "5px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "10px"
-                    }
-                  }}
-                  alt="Apollo Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.orangegate.ca/">
-                <img
-                  src={orangeGateLogo}
-                  css={{
-                    width: "200px",
-                    marginTop: "18px",
+                    width: "180px",
+                    marginTop: "10px",
                     "@media(max-width: 920px)": {
                       width: "140px"
                     },
@@ -641,7 +594,60 @@ const Sponsors = () => (
                       marginTop: "10px"
                     }
                   }}
-                  alt="Orange Gate Logo"
+                  alt="Launch Academy Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.mosaicmfg.com/">
+                <img
+                  src={mosaicLogo}
+                  css={{
+                    width: "150px",
+                    marginTop: "10px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    }
+                  }}
+                  alt="Mosaic Manufacturing Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://wake-ups.com">
+                <img
+                  src={wakeupsLogo}
+                  css={{
+                    width: "100px",
+                    marginTop: "-10px",
+                    "@media(max-width: 920px)": {
+                      width: "80px",
+                      marginBottom: "10px",
+                      marginTop: "15px"
+
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "60px"
+                    }
+                  }}
+                  alt="Wakeups Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://1password.com/">
+                <img
+                  src={onePasswordLogo}
+                  css={{
+                    width: "170px",
+                    marginTop: "20px",
+                    "@media(max-width: 920px)": {
+                      width: "140px",
+                      marginTop: "28px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px"
+                    }
+                  }}
+                  alt="One Password Logo"
                 />
               </SponsorLink>
             </div>
@@ -652,28 +658,58 @@ const Sponsors = () => (
         <div
           css={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr 1fr",
-            "@media(max-width: 920px)": {
-              gridTemplateColumns: "1fr 1fr",
-              width: "60%",
-              marginLeft: "auto",
-              marginRight: "auto",
-              marginBottom: "10px"
-            },
+            gridTemplateColumns: "1fr 1fr 1fr",
             "@media(max-width: 610px)": {
               gridTemplateColumns: "1fr",
-              marginBottom: "0px"
+              width: "60%",
+              marginLeft: "auto",
+              marginRight: "auto"
             }
           }}
         >
+          <SponsorLink url="https://indico.io">
+            <img
+              src={indicoLogo}
+              css={{
+                width: "120px",
+                marginTop: "10px",
+                "@media(max-width: 920px)": {
+                  width: "90px",
+                  marginBottom: "10px",
+                  marginTop: "10px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "60px"
+                }
+              }}
+              alt="Indico Logo"
+            />
+          </SponsorLink>
+          <SponsorLink url="https://www.orangegate.ca/">
+            <img
+              src={orangeGateLogo}
+              css={{
+                width: "200px",
+                marginTop: "15px",
+                "@media(max-width: 920px)": {
+                  width: "140px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "90px",
+                  marginTop: "10px"
+                }
+              }}
+              alt="Orange Gate Logo"
+            />
+          </SponsorLink>
           <SponsorLink url="https://wolfram.com/language/">
             <img
               src={wolframLogo}
               css={{
                 width: "150px",
                 "@media(max-width: 920px)": {
-                  width: "120px",
-                  marginBottom: "10px"
+                  width: "120px"
+
                 },
                 "@media(max-width: 610px)": {
                   width: "90px",
@@ -683,57 +719,60 @@ const Sponsors = () => (
               alt="Wolfram Logo"
             />
           </SponsorLink>
-          <SponsorLink url="https://wake-ups.com">
+        </div>
+        {/* Startup Row 4 */}
+        <div
+          css={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            width: "65%",
+            margin: "10px auto 0",
+            "@media(max-width: 920px)": {
+              gridTemplateColumns: "1fr 1fr",
+              width: "60%",
+              marginLeft: "auto",
+              marginRight: "auto",
+              marginBottom: "10px",
+              marginTop: 0
+            },
+            "@media(max-width: 610px)": {
+              gridTemplateColumns: "1fr",
+              marginBottom: "0px"
+            }
+          }}
+        >
+          <SponsorLink url="https://www.apollographql.com/">
             <img
-              src={wakeupsLogo}
+              src={apolloLogo}
               css={{
-                width: "100px",
-                marginTop: "-10px",
+                width: "160px",
+                marginTop: "15px",
                 "@media(max-width: 920px)": {
-                  width: "80px",
-                  marginBottom: "10px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "60px",
-                  marginTop: "5px"
-                }
-              }}
-              alt="Wakeups Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://indico.io">
-            <img
-              src={indicoLogo}
-              css={{
-                width: "120px",
-                marginTop: "10px",
-                "@media(max-width: 920px)": {
-                  width: "90px",
-                  marginBottom: "10px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "60px",
-                  marginTop: "5px"
-                }
-              }}
-              alt="Indico Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://www.launchacademy.ca/">
-            <img
-              src={launchAcademyLogo}
-              css={{
-                width: "180px",
-                marginTop: "10px",
-                "@media(max-width: 920px)": {
-                  width: "140px"
+                  width: "130px"
                 },
                 "@media(max-width: 610px)": {
                   width: "90px",
                   marginTop: "10px"
                 }
               }}
-              alt="Launch Academy Logo"
+              alt="Apollo Logo"
+            />
+          </SponsorLink>
+          <SponsorLink url="https://www.ycombinator.com/">
+            <img
+              src={ycombinator}
+              css={{
+                width: "180px",
+                marginTop: "10px",
+                "@media(max-width: 920px)": {
+                  width: "130px"
+                },
+                "@media(max-width: 610px)": {
+                  width: "90px",
+                  marginTop: "0"
+                }
+              }}
+              alt="Y Combinator Logo"
             />
           </SponsorLink>
         </div>
