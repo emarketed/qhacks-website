@@ -638,15 +638,82 @@ const Sponsors = () => (
             </div>
             {/* Startup Row 3 */}
             <div>
+              <SponsorLink url="https://www.apollographql.com/">
+                <img
+                  src={apolloLogo}
+                  css={{
+                    width: "140px",
+                    "@media(max-width: 920px)": {
+                      width: "120px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    }
+                  }}
+                  alt="Apollo Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.ycombinator.com/">
+                <img
+                  src={ycombinator}
+                  css={{
+                    width: "180px",
+                    marginTop: "-15px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "0"
+                    }
+                  }}
+                  alt="Y Combinator Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.shopify.com/">
+                <img
+                  src={shopifyLogo}
+                  css={{
+                    width: "160px",
+                    marginTop: "5px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "0"
+                    }
+                  }}
+                  alt="Shopify Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.foundersbeta.com">
+                <img
+                  src={foundersBetaLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "5px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px"
+                    }
+                  }}
+                  alt="FoundersBeta Logo"
+                />
+              </SponsorLink>
+            </div>
+            {/* Startup Row 4 */}
+            <div>
               <SponsorLink url="https://indico.io">
                 <img
                   src={indicoLogo}
                   css={{
                     width: "120px",
-                    marginTop: "10px",
                     "@media(max-width: 920px)": {
                       width: "90px",
-                      marginBottom: "10px",
                       marginTop: "10px"
                     },
                     "@media(max-width: 610px)": {
@@ -678,7 +745,7 @@ const Sponsors = () => (
                   src={orangeGateLogo}
                   css={{
                     width: "200px",
-                    marginTop: "15px",
+                    marginTop: "10px",
                     "@media(max-width: 920px)": {
                       width: "140px",
                       marginTop: "50px"
@@ -707,76 +774,6 @@ const Sponsors = () => (
                     }
                   }}
                   alt="Ramen Ventures Logo"
-                />
-              </SponsorLink>
-            </div>
-            {/* Startup Row 4 */}
-            <div>
-              <SponsorLink url="https://www.apollographql.com/">
-                <img
-                  src={apolloLogo}
-                  css={{
-                    width: "160px",
-                    marginTop: "15px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "10px"
-                    }
-                  }}
-                  alt="Apollo Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.ycombinator.com/">
-                <img
-                  src={ycombinator}
-                  css={{
-                    width: "180px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "0"
-                    }
-                  }}
-                  alt="Y Combinator Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.shopify.com/">
-                <img
-                  src={shopifyLogo}
-                  css={{
-                    width: "180px",
-                    marginTop: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "0"
-                    }
-                  }}
-                  alt="Shopify Logo"
-                />
-              </SponsorLink>
-              <SponsorLink url="https://www.foundersbeta.com">
-                <img
-                  src={foundersBetaLogo}
-                  css={{
-                    width: "200px",
-                    marginTop: "20px",
-                    "@media(max-width: 920px)": {
-                      width: "130px"
-                    },
-                    "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "0"
-                    }
-                  }}
-                  alt="FoundersBeta Logo"
                 />
               </SponsorLink>
             </div>
