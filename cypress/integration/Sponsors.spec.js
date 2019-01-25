@@ -35,10 +35,13 @@ describe("Sponsors", () => {
       "https://wake-ups.com",
       "https://1password.com/",
       "https://indico.io",
-      "https://www.orangegate.ca/",
       "https://wolfram.com/language/",
+      "https://www.orangegate.ca/",
+      "https://ramen.vc",
       "https://www.apollographql.com/",
       "https://www.ycombinator.com/",
+      "https://www.shopify.com/",
+      "https://www.foundersbeta.com",
       "https://www.ece.queensu.ca/",
       "http://www.cs.queensu.ca/",
       "https://smith.queensu.ca/grad_studies/mei/",
@@ -49,9 +52,7 @@ describe("Sponsors", () => {
       "https://www.stickermule.com/ca",
       "https://education.github.com/pack",
       "https://mlh.io/",
-      "https://ramen.vc",
-      "https://www.shopify.com/",
-      "https://www.foundersbeta.com"
+      "http://myams.org/"
     ];
 
     it("should contain the proper number of sponsors", () => {
