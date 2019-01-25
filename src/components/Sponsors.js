@@ -43,6 +43,9 @@ import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
 import nationalBankLogo from "../assets/img/sponsors/nationalbank.svg";
 import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
 import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.svg";
+import ramenVenturesLogo from "../assets/img/sponsors/ramenVentures.png";
+import shopifyLogo from "../assets/img/sponsors/shopify.svg";
+import foundersBetaLogo from "../assets/img/sponsors/foundersBeta.png";
 
 const Sponsors = () => (
   <section
@@ -467,26 +470,27 @@ const Sponsors = () => (
           </div>
 
           {/* Startup */}
-          <div>
+          <div css={{
+            ">div": {
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr 1fr 1fr",
+              marginBottom: "40px",
+              "@media(max-width: 920px)": {
+                gridTemplateColumns: "1fr 1fr",
+                width: "60%",
+                marginLeft: "auto",
+                marginRight: "auto",
+                marginBottom: "10px"
+              },
+              "@media(max-width: 610px)": {
+                gridTemplateColumns: "1fr",
+                width: "90%",
+                marginBottom: "0px"
+              }
+            }
+          }}>
             {/* Startup Row 1 */}
-            <div
-              css={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                marginBottom: "40px",
-                "@media(max-width: 920px)": {
-                  gridTemplateColumns: "1fr 1fr",
-                  width: "60%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                  marginBottom: "10px"
-                },
-                "@media(max-width: 610px)": {
-                  gridTemplateColumns: "1fr",
-                  marginBottom: "0px"
-                }
-              }}
-            >
+            <div>
               <SponsorLink url="https://balsamiq.com">
                 <img
                   src={balsamiqLogo}
@@ -559,27 +563,7 @@ const Sponsors = () => (
             </div>
 
             {/* Startup Row 2 */}
-            <div
-              css={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr 1fr 1fr",
-                marginLeft: "auto",
-                marginRight: "auto",
-                width: "100%",
-                marginBottom: "50px",
-                "@media(max-width: 920px)": {
-                  gridTemplateColumns: "1fr 1fr",
-                  width: "60%",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                  marginBottom: "10px"
-                },
-                "@media(max-width: 610px)": {
-                  gridTemplateColumns: "1fr",
-                  marginBottom: "0px"
-                }
-              }}
-            >
+            <div>
               <SponsorLink url="https://www.launchacademy.ca/">
                 <img
                   src={launchAcademyLogo}
@@ -644,138 +628,158 @@ const Sponsors = () => (
                       marginTop: "28px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "90px"
+                      width: "90px",
+                      marginTop: "15px"
                     }
                   }}
                   alt="One Password Logo"
                 />
               </SponsorLink>
             </div>
+            {/* Startup Row 3 */}
+            <div>
+              <SponsorLink url="https://www.apollographql.com/">
+                <img
+                  src={apolloLogo}
+                  css={{
+                    width: "140px",
+                    "@media(max-width: 920px)": {
+                      width: "120px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    }
+                  }}
+                  alt="Apollo Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.ycombinator.com/">
+                <img
+                  src={ycombinator}
+                  css={{
+                    width: "180px",
+                    marginTop: "-15px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "0"
+                    }
+                  }}
+                  alt="Y Combinator Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.shopify.com/">
+                <img
+                  src={shopifyLogo}
+                  css={{
+                    width: "160px",
+                    marginTop: "5px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "0"
+                    }
+                  }}
+                  alt="Shopify Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.foundersbeta.com">
+                <img
+                  src={foundersBetaLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "5px",
+                    "@media(max-width: 920px)": {
+                      width: "130px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px"
+                    }
+                  }}
+                  alt="FoundersBeta Logo"
+                />
+              </SponsorLink>
+            </div>
+            {/* Startup Row 4 */}
+            <div>
+              <SponsorLink url="https://indico.io">
+                <img
+                  src={indicoLogo}
+                  css={{
+                    width: "120px",
+                    "@media(max-width: 920px)": {
+                      width: "90px",
+                      marginTop: "10px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "60px"
+                    }
+                  }}
+                  alt="Indico Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://wolfram.com/language/">
+                <img
+                  src={wolframLogo}
+                  css={{
+                    width: "150px",
+                    "@media(max-width: 920px)": {
+                      width: "120px"
+
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "20px"
+                    }
+                  }}
+                  alt="Wolfram Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.orangegate.ca/">
+                <img
+                  src={orangeGateLogo}
+                  css={{
+                    width: "200px",
+                    marginTop: "10px",
+                    "@media(max-width: 920px)": {
+                      width: "140px",
+                      marginTop: "50px"
+                    },
+                    "@media(max-width: 610px)": {
+                      width: "90px",
+                      marginTop: "20px"
+                    }
+                  }}
+                  alt="Orange Gate Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://ramen.vc">
+                <img
+                  src={ramenVenturesLogo}
+                  css={{
+                    width: "100px",
+                    "marginTop": "-20px",
+                    "@media(max-width: 920px)": {
+                      width: "90px",
+                      marginTop: "15px"
+                    },
+                    "@media(max-width: 610px)": {
+                      marginTop: "20px",
+                      width: "60px"
+                    }
+                  }}
+                  alt="Ramen Ventures Logo"
+                />
+              </SponsorLink>
+            </div>
           </div>
         </div>
 
-        {/* Startup Row 3 */}
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr 1fr",
-            "@media(max-width: 610px)": {
-              gridTemplateColumns: "1fr",
-              width: "60%",
-              marginLeft: "auto",
-              marginRight: "auto"
-            }
-          }}
-        >
-          <SponsorLink url="https://indico.io">
-            <img
-              src={indicoLogo}
-              css={{
-                width: "120px",
-                marginTop: "10px",
-                "@media(max-width: 920px)": {
-                  width: "90px",
-                  marginBottom: "10px",
-                  marginTop: "10px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "60px"
-                }
-              }}
-              alt="Indico Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://www.orangegate.ca/">
-            <img
-              src={orangeGateLogo}
-              css={{
-                width: "200px",
-                marginTop: "15px",
-                "@media(max-width: 920px)": {
-                  width: "140px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "90px",
-                  marginTop: "10px"
-                }
-              }}
-              alt="Orange Gate Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://wolfram.com/language/">
-            <img
-              src={wolframLogo}
-              css={{
-                width: "150px",
-                "@media(max-width: 920px)": {
-                  width: "120px"
-
-                },
-                "@media(max-width: 610px)": {
-                  width: "90px",
-                  marginTop: "20px"
-                }
-              }}
-              alt="Wolfram Logo"
-            />
-          </SponsorLink>
-        </div>
-        {/* Startup Row 4 */}
-        <div
-          css={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            width: "65%",
-            margin: "10px auto 0",
-            "@media(max-width: 920px)": {
-              gridTemplateColumns: "1fr 1fr",
-              width: "60%",
-              marginLeft: "auto",
-              marginRight: "auto",
-              marginBottom: "10px",
-              marginTop: 0
-            },
-            "@media(max-width: 610px)": {
-              gridTemplateColumns: "1fr",
-              marginBottom: "0px"
-            }
-          }}
-        >
-          <SponsorLink url="https://www.apollographql.com/">
-            <img
-              src={apolloLogo}
-              css={{
-                width: "160px",
-                marginTop: "15px",
-                "@media(max-width: 920px)": {
-                  width: "130px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "90px",
-                  marginTop: "10px"
-                }
-              }}
-              alt="Apollo Logo"
-            />
-          </SponsorLink>
-          <SponsorLink url="https://www.ycombinator.com/">
-            <img
-              src={ycombinator}
-              css={{
-                width: "180px",
-                marginTop: "10px",
-                "@media(max-width: 920px)": {
-                  width: "130px"
-                },
-                "@media(max-width: 610px)": {
-                  width: "90px",
-                  marginTop: "0"
-                }
-              }}
-              alt="Y Combinator Logo"
-            />
-          </SponsorLink>
-        </div>
 
         {/* Partners */}
 

@@ -34,11 +34,14 @@ describe("Sponsors", () => {
       "https://www.mosaicmfg.com/",
       "https://wake-ups.com",
       "https://1password.com/",
-      "https://indico.io",
-      "https://www.orangegate.ca/",
-      "https://wolfram.com/language/",
       "https://www.apollographql.com/",
       "https://www.ycombinator.com/",
+      "https://www.shopify.com/",
+      "https://www.foundersbeta.com",
+      "https://indico.io",
+      "https://wolfram.com/language/",
+      "https://www.orangegate.ca/",
+      "https://ramen.vc",
       "https://www.ece.queensu.ca/",
       "http://www.cs.queensu.ca/",
       "https://smith.queensu.ca/grad_studies/mei/",
@@ -59,9 +62,12 @@ describe("Sponsors", () => {
     });
 
     it("should contain the proper urls", () => {
-      cy.get("[data-cy=sponsor-link]").each(($el, index, $list) => {
-        expect($el).to.have.attr("href", sponsorURLs[index]);
-      });
+
+      sponsorURLs.forEach((url) => cy.get(`[data-cy=sponsor-link][href="${url}"]`).should('exist'));
+
+      // cy.get("[data-cy=sponsor-link]").each(($el, index, $list) => {
+      //   expect($el).to.have.attr("href", sponsorURLs[index]);
+      // });
     });
   });
 });
