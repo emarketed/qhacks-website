@@ -196,14 +196,14 @@ exports[`Mentors renders correctly 1`] = `
     <_default
       borderColor="#c81c2e"
       companyLogo="test-file-stub"
-      companyName="2Keys"
-      companyUrl="https://2keys.ca/"
+      companyName="Accenture"
+      companyUrl="https://www.accenture.com/"
       headshot="test-file-stub"
-      key="Alyssa Kim"
+      key="Anuj Arora"
       logoHeight="40px"
-      logoMarginTop="10px"
-      name="Alyssa Kim"
-      title="Cyber Security Analyst"
+      logoMarginTop="-10px"
+      name="Anuj Arora"
+      title="Consulting Analyst"
     />
     <_default
       borderColor="#00205b"
