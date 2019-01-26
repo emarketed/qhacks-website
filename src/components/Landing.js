@@ -46,9 +46,12 @@ const Landing = () => (
               paddingRight: "50px",
               paddingTop: "215px"
             },
-            "@media (min-width: 821px) and (max-width: 1200px)": {
+            "@media (min-width: 821px) and (max-width: 1199px)": {
               paddingRight: "50px",
               paddingTop: "215px"
+            },
+            "@media (max-width: 820px)": {
+              paddingTop: "80px"
             }
           }}
         >

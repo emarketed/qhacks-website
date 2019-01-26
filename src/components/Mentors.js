@@ -15,7 +15,7 @@ import munvo from "../assets/img/mentors/logos/munvo.svg";
 import opencare from "../assets/img/mentors/logos/opencare.svg";
 import opener from "../assets/img/mentors/logos/opener.svg";
 import uber from "../assets/img/mentors/logos/uber.svg";
-import twoKeys from "../assets/img/mentors/logos/2keys.svg";
+import accenture from "../assets/img/mentors/logos/accenture.svg";
 
 // Mentor headshots
 import john from "../assets/img/mentors/headshots/johnMartin.jpg";
@@ -29,11 +29,11 @@ import zach from "../assets/img/mentors/headshots/zackHarley.jpg";
 import stefan from "../assets/img/mentors/headshots/stefanSokic.jpg";
 import ivan from "../assets/img/mentors/headshots/ivanZhang.jpg";
 import alex from "../assets/img/mentors/headshots/alexAdusei.jpg";
-import alyssa from "../assets/img/mentors/headshots/alyssaKim.jpg";
 import emma from "../assets/img/mentors/headshots/emmaKoza.png";
 import ese from "../assets/img/mentors/headshots/eseOkonofua.jpeg";
 import khalid from "../assets/img/mentors/headshots/khalidKarim.jpg";
 import lydia from "../assets/img/mentors/headshots/lydiaNoureldin.jpg";
+import aj from "../assets/img/mentors/headshots/anujArora.jpeg";
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
@@ -170,14 +170,14 @@ const mentors = [
     logoMarginTop: "5px"
   },
   {
-    name: "Alyssa Kim",
-    title: "Cyber Security Analyst",
-    headshot: alyssa,
-    companyLogo: twoKeys,
-    companyName: "2Keys",
-    companyUrl: "https://2keys.ca/",
+    name: "Anuj Arora",
+    title: "Consulting Analyst",
+    headshot: aj,
+    companyLogo: accenture,
+    companyName: "Accenture",
+    companyUrl: "https://www.accenture.com/",
     logoHeight: "40px",
-    logoMarginTop: "10px"
+    logoMarginTop: "0"
   },
   {
     name: "Khalid Karim",
