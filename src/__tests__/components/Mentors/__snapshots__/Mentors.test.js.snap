@@ -201,7 +201,7 @@ exports[`Mentors renders correctly 1`] = `
       headshot="test-file-stub"
       key="Anuj Arora"
       logoHeight="40px"
-      logoMarginTop="-10px"
+      logoMarginTop="0"
       name="Anuj Arora"
       title="Consulting Analyst"
     />

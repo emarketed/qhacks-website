@@ -177,7 +177,7 @@ const mentors = [
     companyName: "Accenture",
     companyUrl: "https://www.accenture.com/",
     logoHeight: "40px",
-    logoMarginTop: "-10px"
+    logoMarginTop: "0"
   },
   {
     name: "Khalid Karim",
