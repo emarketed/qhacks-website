@@ -26,6 +26,7 @@ import apolloLogo from "../assets/img/sponsors/apollo.svg";
 import googleLogo from "../assets/img/sponsors/google.svg";
 import indicoLogo from "../assets/img/sponsors/indico.svg";
 import sodexoLogo from "../assets/img/sponsors/sodexo.svg";
+import pccLogo from "../assets/img/sponsors/pcc.png";
 import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
 import sunLifeLogo from "../assets/img/sponsors/sunlife.svg";
 import wolframLogo from "../assets/img/sponsors/wolfram.svg";
@@ -942,9 +943,10 @@ const Sponsors = () => (
           <div
             css={{
               display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "20px",
+              gridTemplateColumns: "1fr 1fr",
+              marginBottom: "40px",
               "@media(max-width: 570px)": {
+                gridTemplateColumns: "1fr",
                 marginBottom: "20px"
               }
             }}
@@ -953,18 +955,37 @@ const Sponsors = () => (
               <img
                 src={sodexoLogo}
                 css={{
-                  width: "400px",
+                  width: "350px",
                   "@media(max-width: 980px)": {
-                    width: "310px"
+                    width: "290px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "250px"
+                    width: "230px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "230px"
+                    width: "210px"
                   }
                 }}
                 alt="Sodexo and Coca-Cola Logo"
+              />
+            </SponsorLink>
+            <SponsorLink url="http://thepcc.net/">
+              <img
+                src={pccLogo}
+                css={{
+                  width: "230px",
+                  "@media(max-width: 980px)": {
+                    width: "190px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "130px"
+                  },
+                  "@media(max-width: 570px)": {
+                    width: "110px",
+                    marginTop: "15px"
+                  }
+                }}
+                alt="P&CC Logo"
               />
             </SponsorLink>
           </div>

@@ -51,7 +51,8 @@ describe("Sponsors", () => {
       "https://www.bloomberg.com/canada",
       "https://www.stickermule.com/ca",
       "https://education.github.com/pack",
-      "https://mlh.io/"
+      "https://mlh.io/",
+      "http://thepcc.net/"
     ];
 
     it("should contain the proper number of sponsors", () => {
