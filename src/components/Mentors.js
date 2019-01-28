@@ -127,7 +127,7 @@ const mentors = [
     headshot: ivan,
     companyLogo: cortex,
     companyName: "Cortex",
-    companyUrl: "https://www.cortex.net/",
+    companyUrl: "https://www.cortexlabs.com",
     logoMarginTop: "-15px",
     logoHeight: "60px"
   },
