@@ -491,7 +491,7 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
-              ">div": Object {
+              ">div.fourCol": Object {
                 "@media(max-width: 610px)": Object {
                   "gridTemplateColumns": "1fr",
                   "marginBottom": "0px",
@@ -511,7 +511,9 @@ exports[`Sponsors renders correctly 1`] = `
             }
           }
         >
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
               url="https://balsamiq.com"
             >
@@ -598,7 +600,9 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
           </div>
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
               url="https://www.launchacademy.ca/"
             >
@@ -686,7 +690,9 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
           </div>
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
               url="https://www.apollographql.com/"
             >
@@ -750,28 +756,6 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.foundersbeta.com"
-            >
-              <img
-                alt="FoundersBeta Logo"
-                css={
-                  Object {
-                    "@media(max-width: 610px)": Object {
-                      "width": "90px",
-                    },
-                    "@media(max-width: 920px)": Object {
-                      "width": "130px",
-                    },
-                    "marginTop": "5px",
-                    "width": "200px",
-                  }
-                }
-                src="test-file-stub"
-              />
-            </_default>
-          </div>
-          <div>
-            <_default
               url="https://indico.io"
             >
               <img
@@ -785,48 +769,49 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginTop": "10px",
                       "width": "90px",
                     },
+                    "marginTop": "10px",
                     "width": "120px",
                   }
                 }
                 src="test-file-stub"
               />
             </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                  "width": "90%",
+                },
+                "@media(max-width: 920px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
             <_default
-              url="https://wolfram.com/language/"
+              url="https://www.foundersbeta.com"
             >
               <img
-                alt="Wolfram Logo"
+                alt="FoundersBeta Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "20px",
+                      "marginTop": "15px",
                       "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
-                      "width": "120px",
+                      "marginTop": "15px",
                     },
-                    "width": "150px",
-                  }
-                }
-                src="test-file-stub"
-              />
-            </_default>
-            <_default
-              url="https://www.orangegate.ca/"
-            >
-              <img
-                alt="Orange Gate Logo"
-                css={
-                  Object {
-                    "@media(max-width: 610px)": Object {
-                      "marginTop": "20px",
-                      "width": "90px",
-                    },
-                    "@media(max-width: 920px)": Object {
-                      "marginTop": "50px",
-                      "width": "140px",
-                    },
-                    "marginTop": "10px",
                     "width": "200px",
                   }
                 }
@@ -846,10 +831,97 @@ exports[`Sponsors renders correctly 1`] = `
                     },
                     "@media(max-width: 920px)": Object {
                       "marginTop": "15px",
-                      "width": "90px",
+                      "width": "80px",
                     },
                     "marginTop": "-20px",
-                    "width": "100px",
+                    "width": "90px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://coinsquare.com/"
+            >
+              <img
+                alt="Coinsquare Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "20px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "30px",
+                      "width": "140px",
+                    },
+                    "marginTop": "10px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                  "width": "90%",
+                },
+                "@media(max-width: 920px)": Object {
+                  "gridTemplateColumns": "1fr 1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
+            <_default
+              url="https://www.orangegate.ca/"
+            >
+              <img
+                alt="Orange Gate Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "20px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "20px",
+                      "width": "140px",
+                    },
+                    "marginTop": "10px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://wolfram.com/language/"
+            >
+              <img
+                alt="Wolfram Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "20px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "10px",
+                      "width": "120px",
+                    },
+                    "width": "150px",
                   }
                 }
                 src="test-file-stub"

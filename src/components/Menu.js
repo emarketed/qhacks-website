@@ -21,8 +21,8 @@ const Menu = (props) => {
             display: props.standaloneVersion
               ? "inline-block"
               : props.imgCss
-                ? "inline-block"
-                : "none"
+              ? "inline-block"
+              : "none"
           }
         }}
       >
@@ -46,8 +46,8 @@ const Menu = (props) => {
             display: props.standaloneVersion
               ? "none"
               : props.imgCss
-                ? "none"
-                : "inline-block"
+              ? "none"
+              : "inline-block"
           },
           transition: "0.5s"
         }}

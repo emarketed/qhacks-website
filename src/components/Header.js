@@ -82,9 +82,9 @@ class Header extends Component {
             "@media(min-width:860px)": {
               backgroundColor: this.props.standaloneVersion
                 ? "#ffffff"
-                : (this.state.isAtTheTop
-                  ? "rgba(0,0,0,0)"
-                  : "#ffffff")
+                : this.state.isAtTheTop
+                ? "rgba(0,0,0,0)"
+                : "#ffffff"
             }
           }}
         >
