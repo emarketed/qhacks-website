@@ -89,7 +89,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://stdlib.com/"
+              url="https://stdlib.com"
             >
               <img
                 alt="Standard Library Logo"
@@ -159,7 +159,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="http://www.iganpartners.com/"
+              url="http://www.iganpartners.com"
             >
               <img
                 alt="iGan Partners Logo"
@@ -197,7 +197,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://distributed.computer/"
+              url="https://distributed.computer"
             >
               <img
                 alt="Distributed Compute Labs Logo"
@@ -219,7 +219,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.nbc.ca/"
+              url="https://www.nbc.ca"
             >
               <img
                 alt="National Bank Logo"
@@ -252,7 +252,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://snap.com/"
+              url="https://snap.com"
             >
               <img
                 alt="Snap Inc."
@@ -299,7 +299,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://consensys.net/"
+              url="https://consensys.net"
             >
               <img
                 alt="Consensys Logo"
@@ -412,7 +412,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.telus.com/en/"
+              url="https://www.telus.com/en"
             >
               <img
                 alt="Telus Logo"
@@ -536,7 +536,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://careers.google.com/"
+              url="https://careers.google.com"
             >
               <img
                 alt="Google Logo"
@@ -604,7 +604,7 @@ exports[`Sponsors renders correctly 1`] = `
             className="fourCol"
           >
             <_default
-              url="https://www.launchacademy.ca/"
+              url="https://www.launchacademy.ca"
             >
               <img
                 alt="Launch Academy Logo"
@@ -625,7 +625,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.mosaicmfg.com/"
+              url="https://www.mosaicmfg.com"
             >
               <img
                 alt="Mosaic Manufacturing Logo"
@@ -668,7 +668,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://1password.com/"
+              url="https://1password.com"
             >
               <img
                 alt="One Password Logo"
@@ -694,7 +694,7 @@ exports[`Sponsors renders correctly 1`] = `
             className="fourCol"
           >
             <_default
-              url="https://www.apollographql.com/"
+              url="https://www.apollographql.com"
             >
               <img
                 alt="Apollo Logo"
@@ -714,7 +714,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.ycombinator.com/"
+              url="https://www.ycombinator.com"
             >
               <img
                 alt="Y Combinator Logo"
@@ -735,7 +735,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.shopify.com/"
+              url="https://www.shopify.com"
             >
               <img
                 alt="Shopify Logo"
@@ -841,7 +841,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://coinsquare.com/"
+              url="https://coinsquare.com"
             >
               <img
                 alt="Coinsquare Logo"
@@ -885,7 +885,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://www.orangegate.ca/"
+              url="https://www.orangegate.ca"
             >
               <img
                 alt="Orange Gate Logo"
@@ -907,7 +907,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://wolfram.com/language/"
+              url="https://wolfram.com/language"
             >
               <img
                 alt="Wolfram Logo"
@@ -1004,7 +1004,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://www.ece.queensu.ca/"
+            url="https://www.ece.queensu.ca"
           >
             <img
               alt="ECE Logo"
@@ -1037,7 +1037,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="http://www.cs.queensu.ca/"
+            url="http://www.cs.queensu.ca"
           >
             <img
               alt="Queen's School of Computing"
@@ -1073,7 +1073,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://smith.queensu.ca/grad_studies/mei/"
+            url="https://smith.queensu.ca/grad_studies/mei"
           >
             <img
               alt="MMIE Logo"
@@ -1095,7 +1095,7 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
           <_default
-            url="https://queensu.ca/innovationcentre/"
+            url="https://queensu.ca/innovationcentre"
           >
             <img
               alt="QIC Logo"
@@ -1132,7 +1132,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://dining.queensu.ca/"
+            url="https://dining.queensu.ca"
           >
             <img
               alt="Sodexo and Coca-Cola Logo"
@@ -1154,7 +1154,7 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
           <_default
-            url="http://thepcc.net/"
+            url="http://thepcc.net"
           >
             <img
               alt="P&CC Logo"
@@ -1304,7 +1304,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://mlh.io/"
+            url="https://mlh.io"
           >
             <img
               alt="MLH Logo"

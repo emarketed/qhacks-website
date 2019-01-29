@@ -83,8 +83,8 @@ class Header extends Component {
               backgroundColor: this.props.standaloneVersion
                 ? "#ffffff"
                 : this.state.isAtTheTop
-                ? "rgba(0,0,0,0)"
-                : "#ffffff"
+                  ? "rgba(0,0,0,0)"
+                  : "#ffffff"
             }
           }}
         >

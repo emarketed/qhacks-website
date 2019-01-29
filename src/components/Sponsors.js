@@ -127,7 +127,7 @@ const Sponsors = () => (
                 gridTemplateColumns: "1fr"
               }}
             >
-              <SponsorLink url="https://stdlib.com/">
+              <SponsorLink url="https://stdlib.com">
                 <img
                   src={stdlibLogo}
                   css={{
@@ -188,7 +188,7 @@ const Sponsors = () => (
                   alt="Sun Life Financial Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="http://www.iganpartners.com/">
+              <SponsorLink url="http://www.iganpartners.com">
                 <img
                   css={{
                     width: "400px",
@@ -222,7 +222,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://distributed.computer/">
+              <SponsorLink url="https://distributed.computer">
                 <img
                   css={{
                     width: "360px",
@@ -240,7 +240,7 @@ const Sponsors = () => (
                   alt="Distributed Compute Labs Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.nbc.ca/">
+              <SponsorLink url="https://www.nbc.ca">
                 <img
                   css={{
                     width: "450px",
@@ -270,7 +270,7 @@ const Sponsors = () => (
                 marginBottom: "60px"
               }}
             >
-              <SponsorLink url="https://snap.com/">
+              <SponsorLink url="https://snap.com">
                 <img
                   src={snapLogo}
                   alt="Snap Inc."
@@ -312,7 +312,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://consensys.net/">
+              <SponsorLink url="https://consensys.net">
                 <img
                   src={consensysLogo}
                   css={{
@@ -405,7 +405,7 @@ const Sponsors = () => (
                   alt="Loopio Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.telus.com/en/">
+              <SponsorLink url="https://www.telus.com/en">
                 <img
                   src={telusLogo}
                   css={{
@@ -512,7 +512,7 @@ const Sponsors = () => (
                   alt="Balsamiq Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://careers.google.com/">
+              <SponsorLink url="https://careers.google.com">
                 <img
                   src={googleLogo}
                   css={{
@@ -568,7 +568,7 @@ const Sponsors = () => (
 
             {/* Startup Row 2 */}
             <div className="fourCol">
-              <SponsorLink url="https://www.launchacademy.ca/">
+              <SponsorLink url="https://www.launchacademy.ca">
                 <img
                   src={launchAcademyLogo}
                   css={{
@@ -585,7 +585,7 @@ const Sponsors = () => (
                   alt="Launch Academy Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.mosaicmfg.com/">
+              <SponsorLink url="https://www.mosaicmfg.com">
                 <img
                   src={mosaicLogo}
                   css={{
@@ -620,7 +620,7 @@ const Sponsors = () => (
                   alt="Wakeups Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://1password.com/">
+              <SponsorLink url="https://1password.com">
                 <img
                   src={onePasswordLogo}
                   css={{
@@ -641,7 +641,7 @@ const Sponsors = () => (
             </div>
             {/* Startup Row 3 */}
             <div className="fourCol">
-              <SponsorLink url="https://www.apollographql.com/">
+              <SponsorLink url="https://www.apollographql.com">
                 <img
                   src={apolloLogo}
                   css={{
@@ -657,7 +657,7 @@ const Sponsors = () => (
                   alt="Apollo Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.ycombinator.com/">
+              <SponsorLink url="https://www.ycombinator.com">
                 <img
                   src={ycombinator}
                   css={{
@@ -674,7 +674,7 @@ const Sponsors = () => (
                   alt="Y Combinator Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://www.shopify.com/">
+              <SponsorLink url="https://www.shopify.com">
                 <img
                   src={shopifyLogo}
                   css={{
@@ -763,7 +763,7 @@ const Sponsors = () => (
                   alt="Ramen Ventures Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://coinsquare.com/">
+              <SponsorLink url="https://coinsquare.com">
                 <img
                   src={coinsquareLogo}
                   css={{
@@ -801,7 +801,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://www.orangegate.ca/">
+              <SponsorLink url="https://www.orangegate.ca">
                 <img
                   src={orangeGateLogo}
                   css={{
@@ -819,7 +819,7 @@ const Sponsors = () => (
                   alt="Orange Gate Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://wolfram.com/language/">
+              <SponsorLink url="https://wolfram.com/language">
                 <img
                   src={wolframLogo}
                   css={{
@@ -897,7 +897,7 @@ const Sponsors = () => (
               marginBottom: "25px"
             }}
           >
-            <SponsorLink url="https://www.ece.queensu.ca/">
+            <SponsorLink url="https://www.ece.queensu.ca">
               <img
                 src={eceLogo}
                 css={{
@@ -926,7 +926,7 @@ const Sponsors = () => (
               marginBottom: "20px"
             }}
           >
-            <SponsorLink url="http://www.cs.queensu.ca/">
+            <SponsorLink url="http://www.cs.queensu.ca">
               <img
                 src={schoolOfComputingLogo}
                 alt="Queen's School of Computing"
@@ -958,7 +958,7 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
+            <SponsorLink url="https://smith.queensu.ca/grad_studies/mei">
               <img
                 src={mmieLogo}
                 css={{
@@ -976,7 +976,7 @@ const Sponsors = () => (
                 alt="MMIE Logo"
               />
             </SponsorLink>
-            <SponsorLink url="https://queensu.ca/innovationcentre/">
+            <SponsorLink url="https://queensu.ca/innovationcentre">
               <img
                 src={qicLogo}
                 css={{
@@ -1009,7 +1009,7 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://dining.queensu.ca/">
+            <SponsorLink url="https://dining.queensu.ca">
               <img
                 src={sodexoLogo}
                 css={{
@@ -1027,7 +1027,7 @@ const Sponsors = () => (
                 alt="Sodexo and Coca-Cola Logo"
               />
             </SponsorLink>
-            <SponsorLink url="http://thepcc.net/">
+            <SponsorLink url="http://thepcc.net">
               <img
                 src={pccLogo}
                 css={{
@@ -1157,7 +1157,7 @@ const Sponsors = () => (
               gridTemplateColumns: "1fr"
             }}
           >
-            <SponsorLink url="https://mlh.io/">
+            <SponsorLink url="https://mlh.io">
               <img
                 src={mlhLogo}
                 css={{
