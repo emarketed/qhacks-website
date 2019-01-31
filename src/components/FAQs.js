@@ -74,7 +74,7 @@ const questionsAndAnswers = [
     question: "What if I'm not from Kingston?",
     answer:
       "Encountering a 307 status? We'll be sending busses to Montreal, Ottawa, Toronto and Waterloo. If those aren't convenient for you, we'll be offering travel reimbursements on a case by case basis."
-  }//,
+  } //,
   // {
   //   question: "How do I apply?",
   //   answer:

@@ -56,7 +56,19 @@ const EventScheduleFullSizeTable = (props) => (
         >
           <td>{moment(item.startDate).format("h:mm\xa0A")}</td>
           <td>{item.duration}</td>
-          <td>{item.eventName}</td>
+          <td>
+            <div>
+              {item.eventName}
+            </div>
+            <div css={{
+              color: "#4d4d4d",
+              marginTop: "5px",
+              // fontStyle: "italic",
+              fontSize: "13px"
+            }}>
+              {item.subtitle}
+            </div>
+          </td>
           <td>{item.location}</td>
         </tr>
       ))}

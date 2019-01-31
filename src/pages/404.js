@@ -7,11 +7,13 @@ import ActionButton from "../components/ActionButton";
 import notFoundImg from "../assets/img/icons/404.svg";
 
 export default () => (
-  <div css={{
-    backgroundColor: "#f8f8f8",
-    minHeight: "100vh",
-    bottomMargin: "20px"
-  }}>
+  <div
+    css={{
+      backgroundColor: "#f8f8f8",
+      minHeight: "100vh",
+      bottomMargin: "20px"
+    }}
+  >
     <Header standaloneVersion={true} />
     <section
       css={{
@@ -21,9 +23,11 @@ export default () => (
       }}
     >
       <ContentWrapper>
-        <div css={{
-          paddingTop: "200px"
-        }}>
+        <div
+          css={{
+            paddingTop: "200px"
+          }}
+        >
           <img
             src={notFoundImg}
             css={{
@@ -41,25 +45,29 @@ export default () => (
             data-cy="test-sponsor-image"
             alt="Tucows Logo"
           />
-          <h1 css={{
-            fontSize: "44px",
-            marginBottom: "20px",
-            fontWeight: "700",
-            "@media(max-width: 980px)": {
-              fontSize: "38px"
-            }
-          }}>
+          <h1
+            css={{
+              fontSize: "44px",
+              marginBottom: "20px",
+              fontWeight: "700",
+              "@media(max-width: 980px)": {
+                fontSize: "38px"
+              }
+            }}
+          >
             Oops!
           </h1>
-          <p css={{
-            fontSize: "24px",
-            color: "#00205b",
-            fontWeight: "600",
-            marginBottom: "30px",
-            "@media(max-width: 980px)": {
-              fontSize: "20px"
-            }
-          }}>
+          <p
+            css={{
+              fontSize: "24px",
+              color: "#00205b",
+              fontWeight: "600",
+              marginBottom: "30px",
+              "@media(max-width: 980px)": {
+                fontSize: "20px"
+              }
+            }}
+          >
             The webpage you are looking for is not here!
           </p>
           <ActionButton

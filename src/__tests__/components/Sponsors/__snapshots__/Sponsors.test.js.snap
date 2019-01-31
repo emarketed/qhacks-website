@@ -89,7 +89,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://stdlib.com/"
+              url="https://stdlib.com"
             >
               <img
                 alt="Standard Library Logo"
@@ -159,7 +159,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="http://www.iganpartners.com/"
+              url="http://www.iganpartners.com"
             >
               <img
                 alt="iGan Partners Logo"
@@ -197,7 +197,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://distributed.computer/"
+              url="https://distributed.computer"
             >
               <img
                 alt="Distributed Compute Labs Logo"
@@ -219,7 +219,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.nbc.ca/"
+              url="https://www.nbc.ca"
             >
               <img
                 alt="National Bank Logo"
@@ -252,7 +252,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://snap.com/"
+              url="https://snap.com"
             >
               <img
                 alt="Snap Inc."
@@ -299,7 +299,7 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://consensys.net/"
+              url="https://consensys.net"
             >
               <img
                 alt="Consensys Logo"
@@ -412,7 +412,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.telus.com/en/"
+              url="https://www.telus.com/en"
             >
               <img
                 alt="Telus Logo"
@@ -491,7 +491,7 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
-              ">div": Object {
+              ">div.fourCol": Object {
                 "@media(max-width: 610px)": Object {
                   "gridTemplateColumns": "1fr",
                   "marginBottom": "0px",
@@ -511,7 +511,9 @@ exports[`Sponsors renders correctly 1`] = `
             }
           }
         >
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
               url="https://balsamiq.com"
             >
@@ -534,7 +536,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://careers.google.com/"
+              url="https://careers.google.com"
             >
               <img
                 alt="Google Logo"
@@ -598,30 +600,33 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
           </div>
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
-              url="https://www.launchacademy.ca/"
+              url="https://coinsquare.com"
             >
               <img
-                alt="Launch Academy Logo"
+                alt="Coinsquare Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "10px",
+                      "marginTop": "20px",
                       "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
+                      "marginTop": "30px",
                       "width": "140px",
                     },
                     "marginTop": "10px",
-                    "width": "180px",
+                    "width": "200px",
                   }
                 }
                 src="test-file-stub"
               />
             </_default>
             <_default
-              url="https://www.mosaicmfg.com/"
+              url="https://www.mosaicmfg.com"
             >
               <img
                 alt="Mosaic Manufacturing Logo"
@@ -664,7 +669,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://1password.com/"
+              url="https://1password.com"
             >
               <img
                 alt="One Password Logo"
@@ -686,9 +691,11 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
           </div>
-          <div>
+          <div
+            className="fourCol"
+          >
             <_default
-              url="https://www.apollographql.com/"
+              url="https://www.apollographql.com"
             >
               <img
                 alt="Apollo Logo"
@@ -708,7 +715,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.ycombinator.com/"
+              url="https://www.ycombinator.com"
             >
               <img
                 alt="Y Combinator Logo"
@@ -729,7 +736,7 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.shopify.com/"
+              url="https://www.shopify.com"
             >
               <img
                 alt="Shopify Logo"
@@ -750,28 +757,6 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://www.foundersbeta.com"
-            >
-              <img
-                alt="FoundersBeta Logo"
-                css={
-                  Object {
-                    "@media(max-width: 610px)": Object {
-                      "width": "90px",
-                    },
-                    "@media(max-width: 920px)": Object {
-                      "width": "130px",
-                    },
-                    "marginTop": "5px",
-                    "width": "200px",
-                  }
-                }
-                src="test-file-stub"
-              />
-            </_default>
-          </div>
-          <div>
-            <_default
               url="https://indico.io"
             >
               <img
@@ -785,49 +770,51 @@ exports[`Sponsors renders correctly 1`] = `
                       "marginTop": "10px",
                       "width": "90px",
                     },
+                    "marginTop": "10px",
                     "width": "120px",
                   }
                 }
                 src="test-file-stub"
               />
             </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                  "width": "90%",
+                },
+                "@media(max-width: 920px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
             <_default
-              url="https://wolfram.com/language/"
+              url="https://munvo.com"
             >
               <img
-                alt="Wolfram Logo"
+                alt="Munvo Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "20px",
-                      "width": "90px",
+                      "width": "100px",
                     },
                     "@media(max-width: 920px)": Object {
+                      "marginTop": 0,
                       "width": "120px",
                     },
+                    "marginTop": "-20px",
                     "width": "150px",
-                  }
-                }
-                src="test-file-stub"
-              />
-            </_default>
-            <_default
-              url="https://www.orangegate.ca/"
-            >
-              <img
-                alt="Orange Gate Logo"
-                css={
-                  Object {
-                    "@media(max-width: 610px)": Object {
-                      "marginTop": "20px",
-                      "width": "90px",
-                    },
-                    "@media(max-width: 920px)": Object {
-                      "marginTop": "50px",
-                      "width": "140px",
-                    },
-                    "marginTop": "10px",
-                    "width": "200px",
                   }
                 }
                 src="test-file-stub"
@@ -846,10 +833,116 @@ exports[`Sponsors renders correctly 1`] = `
                     },
                     "@media(max-width: 920px)": Object {
                       "marginTop": "15px",
-                      "width": "90px",
+                      "width": "80px",
                     },
                     "marginTop": "-20px",
-                    "width": "100px",
+                    "width": "90px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.launchacademy.ca"
+            >
+              <img
+                alt="Launch Academy Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "20px",
+                      "width": "140px",
+                    },
+                    "marginTop": "10px",
+                    "width": "180px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+          </div>
+          <div
+            css={
+              Object {
+                "@media(max-width: 610px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "0px",
+                  "width": "90%",
+                },
+                "@media(max-width: 920px)": Object {
+                  "gridTemplateColumns": "1fr",
+                  "marginBottom": "10px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "width": "60%",
+                },
+                "display": "grid",
+                "gridTemplateColumns": "1fr 1fr 1fr",
+                "marginBottom": "40px",
+              }
+            }
+          >
+            <_default
+              url="https://www.orangegate.ca"
+            >
+              <img
+                alt="Orange Gate Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "20px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "20px",
+                      "width": "140px",
+                    },
+                    "marginTop": "10px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.foundersbeta.com"
+            >
+              <img
+                alt="FoundersBeta Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "15px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "15px",
+                    },
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://wolfram.com/language"
+            >
+              <img
+                alt="Wolfram Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "20px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "10px",
+                      "width": "120px",
+                    },
+                    "width": "150px",
                   }
                 }
                 src="test-file-stub"
@@ -932,7 +1025,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://www.ece.queensu.ca/"
+            url="https://www.ece.queensu.ca"
           >
             <img
               alt="ECE Logo"
@@ -965,7 +1058,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="http://www.cs.queensu.ca/"
+            url="http://www.cs.queensu.ca"
           >
             <img
               alt="Queen's School of Computing"
@@ -1001,7 +1094,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://smith.queensu.ca/grad_studies/mei/"
+            url="https://smith.queensu.ca/grad_studies/mei"
           >
             <img
               alt="MMIE Logo"
@@ -1023,7 +1116,7 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
           <_default
-            url="https://queensu.ca/innovationcentre/"
+            url="https://queensu.ca/innovationcentre"
           >
             <img
               alt="QIC Logo"
@@ -1060,7 +1153,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://dining.queensu.ca/"
+            url="https://dining.queensu.ca"
           >
             <img
               alt="Sodexo and Coca-Cola Logo"
@@ -1082,7 +1175,7 @@ exports[`Sponsors renders correctly 1`] = `
             />
           </_default>
           <_default
-            url="http://thepcc.net/"
+            url="http://thepcc.net"
           >
             <img
               alt="P&CC Logo"
@@ -1232,7 +1325,7 @@ exports[`Sponsors renders correctly 1`] = `
           }
         >
           <_default
-            url="https://mlh.io/"
+            url="https://mlh.io"
           >
             <img
               alt="MLH Logo"

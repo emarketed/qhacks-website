@@ -1,6 +1,6 @@
 {
   "name": "qhacks-website",
-  "version": "4.6.4",
+  "version": "4.6.5",
   "description": "Website for QHacks!",
   "author": "QHacks Engineering",
   "homepage": "https://github.com/qhacks/qhacks-website#readme",
@@ -21,7 +21,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "style": "eslint src/**/*.js",
-    "format": "prettier --write 'src/**/*.js'",
+    "format": "prettier --write 'src/**/*.js' && eslint src/**/*.js --fix",
     "test": "npm run jest-tests && npm run cypress-tests",
     "jest-tests": "jest",
     "jest-tests-watch": "jest --watchAll",

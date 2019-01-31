@@ -115,7 +115,7 @@ export default () => {
           <About />
           <HackerTestimonials />
           <Speakers />
-          {/* <EventSchedule /> */}
+          <EventSchedule />
           <Sponsors />
           <FAQs />
           <Podcast />
