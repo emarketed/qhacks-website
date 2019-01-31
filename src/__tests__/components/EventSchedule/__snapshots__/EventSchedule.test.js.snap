@@ -28,7 +28,7 @@ exports[`EventSchedule renders correctly 1`] = `
         Array [
           "2019-02-01",
           "2019-02-02",
-          "Invalid date",
+          "2019-02-03",
         ]
       }
     />

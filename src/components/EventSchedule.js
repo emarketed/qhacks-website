@@ -257,65 +257,65 @@ const schedule = [
     location: "Mitchell Atrium"
   },
   {
-    startDate: "2019-02-3T00:00:00",
+    startDate: "2019-02-03T00:00:00",
     endDate: "2019-02-03T01:30:00",
     eventName: "Midnight Snack | Bakery Treats",
     subtitle: "National Bank Financial",
     location: "Bartlett Gym"
   },
   {
-    startDate: "2019-02-3T00:00:00",
+    startDate: "2019-02-03T00:00:00",
     endDate: "2019-02-03T00:45:00",
     eventName: "Workshop | Product Development Process - Interactive Workshop",
     subtitle: "Ritual",
     location: "DDQIC Event Commons"
   },
   {
-    startDate: "2019-02-3T01:00:00",
+    startDate: "2019-02-03T01:00:00",
     endDate: "2019-02-03T01:45:00",
     eventName: "Workshop | Introduction to Three.js",
     subtitle: "Mosaic",
     location: "DDQIC Event Commons"
   },
   {
-    startDate: "2019-02-3T02:00:00",
+    startDate: "2019-02-03T02:00:00",
     endDate: "2019-02-03T02:45:00",
     eventName: "Workshop | Introduction to Netlify",
     subtitle: "Zach Harley",
     location: "DDQIC Event Commons"
   },
   {
-    startDate: "2019-02-3T08:00:00",
+    startDate: "2019-02-03T08:00:00",
     endDate: "2019-02-03T10:00:00",
     eventName: "Breakfast | Fruit and Pastries",
     subtitle: "Sponsored by iGann Partners",
     location: "Bartlett Gym"
   },
   {
-    startDate: "2019-02-3T09:00:00",
+    startDate: "2019-02-03T09:00:00",
     eventName: "Hacking Ends!"
   },
   {
-    startDate: "2019-02-3T09:30:00",
+    startDate: "2019-02-03T09:30:00",
     endDate: "2019-02-03T11:30:00",
     eventName: "Judging",
     location: "Engineering Active Learning Rooms"
   },
   {
-    startDate: "2019-02-3T11:00:00",
+    startDate: "2019-02-03T11:00:00",
     endDate: "2019-02-03T12:00:00",
     eventName: "Lunch | Pizza",
     subtitle: "Sponsored by Tucows and Standard Library",
     location: "Bartlett Gym"
   },
   {
-    startDate: "2019-02-3T12:30:00",
+    startDate: "2019-02-03T12:30:00",
     endDate: "2019-02-03T14:30:00",
     eventName: "Closing Ceremonies",
     location: "Grant Hall"
   },
   {
-    startDate: "2019-02-3T15:00:00",
+    startDate: "2019-02-03T15:00:00",
     eventName: "Busses Leave",
     location: "Grant Hall"
   }
