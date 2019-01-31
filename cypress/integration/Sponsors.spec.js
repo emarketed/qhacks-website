@@ -53,7 +53,8 @@ describe("Sponsors", () => {
       "https://education.github.com/pack",
       "https://mlh.io",
       "http://thepcc.net",
-      "https://coinsquare.com"
+      "https://coinsquare.com",
+      "https://munvo.com"
     ];
 
     it("should contain the proper number of sponsors", () => {

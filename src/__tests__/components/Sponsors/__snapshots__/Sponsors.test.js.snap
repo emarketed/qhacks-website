@@ -604,21 +604,22 @@ exports[`Sponsors renders correctly 1`] = `
             className="fourCol"
           >
             <_default
-              url="https://www.launchacademy.ca"
+              url="https://coinsquare.com"
             >
               <img
-                alt="Launch Academy Logo"
+                alt="Coinsquare Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "10px",
+                      "marginTop": "20px",
                       "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
+                      "marginTop": "30px",
                       "width": "140px",
                     },
                     "marginTop": "10px",
-                    "width": "180px",
+                    "width": "200px",
                   }
                 }
                 src="test-file-stub"
@@ -799,20 +800,21 @@ exports[`Sponsors renders correctly 1`] = `
             }
           >
             <_default
-              url="https://www.foundersbeta.com"
+              url="https://munvo.com"
             >
               <img
-                alt="FoundersBeta Logo"
+                alt="Munvo Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "15px",
-                      "width": "90px",
+                      "width": "100px",
                     },
                     "@media(max-width: 920px)": Object {
-                      "marginTop": "15px",
+                      "marginTop": 0,
+                      "width": "120px",
                     },
-                    "width": "200px",
+                    "marginTop": "-20px",
+                    "width": "150px",
                   }
                 }
                 src="test-file-stub"
@@ -841,22 +843,21 @@ exports[`Sponsors renders correctly 1`] = `
               />
             </_default>
             <_default
-              url="https://coinsquare.com"
+              url="https://www.launchacademy.ca"
             >
               <img
-                alt="Coinsquare Logo"
+                alt="Launch Academy Logo"
                 css={
                   Object {
                     "@media(max-width: 610px)": Object {
-                      "marginTop": "20px",
                       "width": "90px",
                     },
                     "@media(max-width: 920px)": Object {
-                      "marginTop": "30px",
+                      "marginTop": "20px",
                       "width": "140px",
                     },
                     "marginTop": "10px",
-                    "width": "200px",
+                    "width": "180px",
                   }
                 }
                 src="test-file-stub"
@@ -872,14 +873,14 @@ exports[`Sponsors renders correctly 1`] = `
                   "width": "90%",
                 },
                 "@media(max-width: 920px)": Object {
-                  "gridTemplateColumns": "1fr 1fr",
+                  "gridTemplateColumns": "1fr",
                   "marginBottom": "10px",
                   "marginLeft": "auto",
                   "marginRight": "auto",
                   "width": "60%",
                 },
                 "display": "grid",
-                "gridTemplateColumns": "1fr 1fr",
+                "gridTemplateColumns": "1fr 1fr 1fr",
                 "marginBottom": "40px",
               }
             }
@@ -900,6 +901,26 @@ exports[`Sponsors renders correctly 1`] = `
                       "width": "140px",
                     },
                     "marginTop": "10px",
+                    "width": "200px",
+                  }
+                }
+                src="test-file-stub"
+              />
+            </_default>
+            <_default
+              url="https://www.foundersbeta.com"
+            >
+              <img
+                alt="FoundersBeta Logo"
+                css={
+                  Object {
+                    "@media(max-width: 610px)": Object {
+                      "marginTop": "15px",
+                      "width": "90px",
+                    },
+                    "@media(max-width: 920px)": Object {
+                      "marginTop": "15px",
+                    },
                     "width": "200px",
                   }
                 }
