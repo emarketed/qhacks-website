@@ -41,7 +41,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         3 hrs
       </td>
       <td>
-        Busses arrive/registration
+        <div>
+          Busses arrive/registration
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Kingston Hall
@@ -62,7 +73,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         3 hrs
       </td>
       <td>
-        Dinner - Presented by iGan Partners (Sandwiches)
+        <div>
+          Dinner - Presented by iGan Partners (Sandwiches)
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Kingston Hall
@@ -83,7 +105,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         2 hrs
       </td>
       <td>
-        Opening Ceremonies
+        <div>
+          Opening Ceremonies
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Kingston Hall
@@ -104,7 +137,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         30 mins
       </td>
       <td>
-        Team Formation
+        <div>
+          Team Formation
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         BioSci Auditorium
@@ -125,7 +169,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         36 hrs
       </td>
       <td>
-        Hacking Begins
+        <div>
+          Hacking Begins
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td />
     </tr>
@@ -144,7 +199,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib
+        <div>
+          Shipping Products Fast: How to Build Fully-Fledged APIs and Services in minutes using StdLib
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Walter Light Hall - Room 210
@@ -165,7 +231,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Midnight Snack (Noodles) - Provided by StdLib
+        <div>
+          Midnight Snack (Noodles) - Provided by StdLib
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Walter Light Hall Atrium
@@ -186,7 +263,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Adding Image and Voice Intelligence to Your Apps with Microsoft Cognitive Services
+        <div>
+          Adding Image and Voice Intelligence to Your Apps with Microsoft Cognitive Services
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Goodwin Hall - Room 254
@@ -207,7 +295,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         30 mins
       </td>
       <td>
-        Getting Started With Computer Vision Using Clarifai
+        <div>
+          Getting Started With Computer Vision Using Clarifai
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Walter Light Hall - Room 210
@@ -228,7 +327,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Hardware Opens
+        <div>
+          Hardware Opens
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         ILC Design Bay
@@ -249,7 +359,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Slideshow Karaoke
+        <div>
+          Slideshow Karaoke
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Walter Light Hall - Room 210
@@ -270,7 +391,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Snack (Bubble Tea)
+        <div>
+          Snack (Bubble Tea)
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Walter Light Hall Auditorium
@@ -291,7 +423,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Escape Room
+        <div>
+          Escape Room
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         ILC - Room 119
@@ -312,7 +455,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Breakfast
+        <div>
+          Breakfast
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         ILC - Room 109
@@ -333,7 +487,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         1 hr
       </td>
       <td>
-        Hacking Ends
+        <div>
+          Hacking Ends
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td />
     </tr>
@@ -352,7 +517,18 @@ exports[`EventScheduleFullSizeTable renders correctly 1`] = `
         2 hrs
       </td>
       <td>
-        Closing Ceremonies
+        <div>
+          Closing Ceremonies
+        </div>
+        <div
+          css={
+            Object {
+              "color": "#4d4d4d",
+              "fontSize": "13px",
+              "marginTop": "5px",
+            }
+          }
+        />
       </td>
       <td>
         Kingston Hall

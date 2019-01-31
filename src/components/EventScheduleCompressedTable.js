@@ -47,7 +47,9 @@ const EventScheduleCompressedTable = (props) => (
               {moment(item.startDate).format("h:mm\xa0A")}
             </div>
             <div className="eventEnd">
-              {moment(item.endDate).format("h:mm\xa0A")}
+              {item.endDate ?
+                moment(item.endDate).format("h:mm\xa0A")
+                : ""}
             </div>
           </td>
           <td className="eventName">
