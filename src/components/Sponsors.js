@@ -48,6 +48,7 @@ import ramenVenturesLogo from "../assets/img/sponsors/ramenVentures.png";
 import shopifyLogo from "../assets/img/sponsors/shopify.svg";
 import foundersBetaLogo from "../assets/img/sponsors/foundersBeta.png";
 import coinsquareLogo from "../assets/img/sponsors/coinsquare.png";
+import munvoLogo from "../assets/img/sponsors/munvo.png";
 
 const Sponsors = () => (
   <section
@@ -568,21 +569,22 @@ const Sponsors = () => (
 
             {/* Startup Row 2 */}
             <div className="fourCol">
-              <SponsorLink url="https://www.launchacademy.ca">
+              <SponsorLink url="https://coinsquare.com">
                 <img
-                  src={launchAcademyLogo}
+                  src={coinsquareLogo}
                   css={{
-                    width: "180px",
+                    width: "200px",
                     marginTop: "10px",
                     "@media(max-width: 920px)": {
-                      width: "140px"
+                      width: "140px",
+                      marginTop: "30px"
                     },
                     "@media(max-width: 610px)": {
                       width: "90px",
-                      marginTop: "10px"
+                      marginTop: "20px"
                     }
                   }}
-                  alt="Launch Academy Logo"
+                  alt="Coinsquare Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://www.mosaicmfg.com">
@@ -729,20 +731,21 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="https://www.foundersbeta.com">
+              <SponsorLink url="https://munvo.com">
                 <img
-                  src={foundersBetaLogo}
+                  src={munvoLogo}
                   css={{
-                    width: "200px",
+                    width: "150px",
+                    marginTop: "-20px",
                     "@media(max-width: 920px)": {
-                      marginTop: "15px"
+                      marginTop: 0,
+                      width: "120px"
                     },
                     "@media(max-width: 610px)": {
-                      marginTop: "15px",
-                      width: "90px"
+                      width: "100px"
                     }
                   }}
-                  alt="FoundersBeta Logo"
+                  alt="Munvo Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://ramen.vc">
@@ -763,32 +766,31 @@ const Sponsors = () => (
                   alt="Ramen Ventures Logo"
                 />
               </SponsorLink>
-              <SponsorLink url="https://coinsquare.com">
+              <SponsorLink url="https://www.launchacademy.ca">
                 <img
-                  src={coinsquareLogo}
+                  src={launchAcademyLogo}
                   css={{
-                    width: "200px",
+                    width: "180px",
                     marginTop: "10px",
                     "@media(max-width: 920px)": {
                       width: "140px",
-                      marginTop: "30px"
+                      marginTop: "20px"
                     },
                     "@media(max-width: 610px)": {
-                      width: "90px",
-                      marginTop: "20px"
+                      width: "90px"
                     }
                   }}
-                  alt="Coinsquare Logo"
+                  alt="Launch Academy Logo"
                 />
               </SponsorLink>
             </div>
             <div
               css={{
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr",
                 marginBottom: "40px",
                 "@media(max-width: 920px)": {
-                  gridTemplateColumns: "1fr 1fr",
+                  gridTemplateColumns: "1fr",
                   width: "60%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -817,6 +819,22 @@ const Sponsors = () => (
                     }
                   }}
                   alt="Orange Gate Logo"
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.foundersbeta.com">
+                <img
+                  src={foundersBetaLogo}
+                  css={{
+                    width: "200px",
+                    "@media(max-width: 920px)": {
+                      marginTop: "15px"
+                    },
+                    "@media(max-width: 610px)": {
+                      marginTop: "15px",
+                      width: "90px"
+                    }
+                  }}
+                  alt="FoundersBeta Logo"
                 />
               </SponsorLink>
               <SponsorLink url="https://wolfram.com/language">
