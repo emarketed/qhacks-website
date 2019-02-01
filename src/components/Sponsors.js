@@ -49,7 +49,7 @@ import shopifyLogo from "../assets/img/sponsors/shopify.svg";
 import foundersBetaLogo from "../assets/img/sponsors/foundersBeta.png";
 import coinsquareLogo from "../assets/img/sponsors/coinsquare.png";
 import munvoLogo from "../assets/img/sponsors/munvo.png";
-import amsAsusEngSocLogo from "../assets/img/sponsors/amsAsusEngSoc.svg";
+import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
 
 const Sponsors = () => (
   <section
@@ -967,23 +967,23 @@ const Sponsors = () => (
                 }}
               />
             </SponsorLink>
-            {/*amsAsusEngSocLogo*/}
+            {/*asusAmsEngSocLogo*/}
             <SponsorLink url="https://www.queensu.ca/">
               <img
-                src={amsAsusEngSocLogo}
+                src={asusAmsEngSocLogo}
                 alt="AMS, ASUS, and EngSoc"
                 css={{
-                  "margin": "-60px 0",
-                  width: "400px",
+                  width: "280px",
+                  marginTop: "20px",
                   "@media(max-width: 980px)": {
-                    width: "310px"
+                    width: "200px"
                   },
                   "@media(max-width: 680px)": {
-                    margin: "-20px 0",
-                    width: "250px"
+                    width: "150px"
                   },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
+                  "@media(max-width: 570px)": {
+                    width: "110px",
+                    marginTop: "15px"
                   }
                 }}
               />
