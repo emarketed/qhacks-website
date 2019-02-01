@@ -49,6 +49,7 @@ import shopifyLogo from "../assets/img/sponsors/shopify.svg";
 import foundersBetaLogo from "../assets/img/sponsors/foundersBeta.png";
 import coinsquareLogo from "../assets/img/sponsors/coinsquare.png";
 import munvoLogo from "../assets/img/sponsors/munvo.png";
+import amsAsusEngSocLogo from "../assets/img/sponsors/amsAsusEngSoc.svg";
 
 const Sponsors = () => (
   <section
@@ -939,9 +940,12 @@ const Sponsors = () => (
           <div
             css={{
               display: "grid",
-              gridTemplateColumns: "1fr",
-              marginTop: "20px",
-              marginBottom: "20px"
+              gridTemplateColumns: "1fr 1fr",
+              marginBottom: "40px",
+              "@media(max-width: 570px)": {
+                gridTemplateColumns: "1fr",
+                marginBottom: "20px"
+              }
             }}
           >
             <SponsorLink url="http://www.cs.queensu.ca">
@@ -949,11 +953,33 @@ const Sponsors = () => (
                 src={schoolOfComputingLogo}
                 alt="Queen's School of Computing"
                 css={{
+                  marginTop: "20px",
                   width: "400px",
                   "@media(max-width: 980px)": {
                     width: "310px"
                   },
                   "@media(max-width: 680px)": {
+                    width: "250px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "230px"
+                  }
+                }}
+              />
+            </SponsorLink>
+            {/*amsAsusEngSocLogo*/}
+            <SponsorLink url="https://www.queensu.ca/">
+              <img
+                src={amsAsusEngSocLogo}
+                alt="AMS, ASUS, and EngSoc"
+                css={{
+                  "margin": "-60px 0",
+                  width: "400px",
+                  "@media(max-width: 980px)": {
+                    width: "310px"
+                  },
+                  "@media(max-width: 680px)": {
+                    margin: "-20px 0",
                     width: "250px"
                   },
                   "@media(max-width: 460px)": {
