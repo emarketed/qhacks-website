@@ -39,13 +39,12 @@ const schedule = [
   {
     startDate: "2019-02-01T22:00:00",
     eventName: "Hacking Begins!",
-    location: "LINQ Lab and Engineering Active Learning Rooms - Mitchell Hall"
+    location: "LinQ Lab and Engineering Active Learning Rooms - Mitchell Hall"
   },
   {
     startDate: "2019-02-01T23:00:00",
     endDate: "2019-02-01T23:45:00",
-    eventName:
-      "Workshop | Please Build Things It's Good For You",
+    eventName: "Workshop | Please Build Things It's Good For You",
     subtitle: "Ivan Zhang",
     location: "DDQIC Event Commons"
   },
@@ -128,7 +127,7 @@ const schedule = [
     startDate: "2019-02-02T10:00:00",
     endDate: "2019-02-02T10:45:00",
     eventName: "Workshop | How Not to Get Screwed by a VC",
-    subtitle: "iGann Partners",
+    subtitle: "iGan Partners",
     location: "DDQIC Event Commons"
   },
   {
@@ -169,7 +168,7 @@ const schedule = [
   {
     startDate: "2019-02-02T15:00:00",
     endDate: "2019-02-02T15:45:00",
-    eventName: "Workshop | Growth in Marketplaces & Product Management Q&A",
+    eventName: "Workshop | Growing Marketplace Products",
     subtitle: "Khalid Karim",
     location: "DDQIC Event Commons"
   },
@@ -177,7 +176,7 @@ const schedule = [
     startDate: "2019-02-02T16:00:00",
     endDate: "2019-02-02T16:45:00",
     eventName: "Mini Event | Dog Therapy",
-    subtitle: "Sponsored by iGann Partners and National Bank Financial",
+    subtitle: "Sponsored by iGan Partners and National Bank Financial",
     location: "Bartlett Gym"
   },
   {
@@ -288,7 +287,7 @@ const schedule = [
     startDate: "2019-02-03T08:00:00",
     endDate: "2019-02-03T10:00:00",
     eventName: "Breakfast | Fruit and Pastries",
-    subtitle: "Sponsored by iGann Partners",
+    subtitle: "Sponsored by iGan Partners",
     location: "Bartlett Gym"
   },
   {
@@ -364,10 +363,13 @@ class EventSchedule extends Component {
   render() {
     const eventsOnSelectedDay = schedule.filter(
       (item) =>
-        moment(item.startDate).format("YYYY-MM-DD") === this.state.selectedDay &&
-        Number(moment(item.startDate).format("H")) > 5 ||
-        moment(item.startDate).subtract("days", 1).format("YYYY-MM-DD") === this.state.selectedDay &&
-        Number(moment(item.startDate).format("H")) <= 5
+        (moment(item.startDate).format("YYYY-MM-DD") ===
+          this.state.selectedDay &&
+          Number(moment(item.startDate).format("H")) > 5) ||
+        (moment(item.startDate)
+          .subtract("days", 1)
+          .format("YYYY-MM-DD") === this.state.selectedDay &&
+          Number(moment(item.startDate).format("H")) <= 5)
     );
 
     const data = this.addDurations(eventsOnSelectedDay);

@@ -1050,10 +1050,13 @@ exports[`Sponsors renders correctly 1`] = `
         <div
           css={
             Object {
+              "@media(max-width: 570px)": Object {
+                "gridTemplateColumns": "1fr",
+                "marginBottom": "20px",
+              },
               "display": "grid",
-              "gridTemplateColumns": "1fr",
-              "marginBottom": "20px",
-              "marginTop": "20px",
+              "gridTemplateColumns": "1fr 1fr",
+              "marginBottom": "40px",
             }
           }
         >
@@ -1073,7 +1076,32 @@ exports[`Sponsors renders correctly 1`] = `
                   "@media(max-width: 980px)": Object {
                     "width": "310px",
                   },
+                  "marginTop": "20px",
                   "width": "400px",
+                }
+              }
+              src="test-file-stub"
+            />
+          </_default>
+          <_default
+            url="https://www.queensu.ca/"
+          >
+            <img
+              alt="AMS, ASUS, and EngSoc"
+              css={
+                Object {
+                  "@media(max-width: 570px)": Object {
+                    "marginTop": "15px",
+                    "width": "110px",
+                  },
+                  "@media(max-width: 680px)": Object {
+                    "width": "150px",
+                  },
+                  "@media(max-width: 980px)": Object {
+                    "width": "200px",
+                  },
+                  "marginTop": "20px",
+                  "width": "280px",
                 }
               }
               src="test-file-stub"

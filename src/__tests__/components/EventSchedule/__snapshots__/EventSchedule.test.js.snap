@@ -73,7 +73,7 @@ exports[`EventSchedule renders correctly 1`] = `
             },
             Object {
               "eventName": "Hacking Begins!",
-              "location": "LINQ Lab and Engineering Active Learning Rooms - Mitchell Hall",
+              "location": "LinQ Lab and Engineering Active Learning Rooms - Mitchell Hall",
               "startDate": "2019-02-01T22:00:00",
             },
             Object {
@@ -169,7 +169,7 @@ exports[`EventSchedule renders correctly 1`] = `
             },
             Object {
               "eventName": "Hacking Begins!",
-              "location": "LINQ Lab and Engineering Active Learning Rooms - Mitchell Hall",
+              "location": "LinQ Lab and Engineering Active Learning Rooms - Mitchell Hall",
               "startDate": "2019-02-01T22:00:00",
             },
             Object {
