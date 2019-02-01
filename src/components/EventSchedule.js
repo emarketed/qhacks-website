@@ -168,7 +168,7 @@ const schedule = [
   {
     startDate: "2019-02-02T15:00:00",
     endDate: "2019-02-02T15:45:00",
-    eventName: "Workshop | Growth in Marketplaces & Product Management Q&A",
+    eventName: "Workshop | Growing Marketplace Products",
     subtitle: "Khalid Karim",
     location: "DDQIC Event Commons"
   },

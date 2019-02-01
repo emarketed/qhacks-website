@@ -54,7 +54,8 @@ describe("Sponsors", () => {
       "https://mlh.io",
       "http://thepcc.net",
       "https://coinsquare.com",
-      "https://munvo.com"
+      "https://munvo.com",
+      "https://www.queensu.ca/"
     ];
 
     it("should contain the proper number of sponsors", () => {
