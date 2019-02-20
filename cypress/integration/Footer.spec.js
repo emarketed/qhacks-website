@@ -18,7 +18,7 @@ describe("Footer", () => {
   it("provides link to QHacks blog", () => {
     cy.get("[data-cy=footer-blog-link]")
       .should("have.text", "QHacks Blog ▸")
-      .should("have.attr", "href", "https://medium.com/qhacks");
+      .should("have.attr", "href", "https://medium.com/@qhacks");
   });
 
   it("provides link to QHacks Dashboard", () => {

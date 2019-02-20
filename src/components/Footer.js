@@ -25,7 +25,7 @@ const navigateLinks = [
   },
   {
     label: "QHacks Blog",
-    url: "https://medium.com/qhacks",
+    url: "https://medium.com/@qhacks",
     dataCy: "footer-blog-link"
   },
   {
