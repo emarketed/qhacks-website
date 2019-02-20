@@ -237,11 +237,11 @@ exports[`Footer renders correctly 1`] = `
             </a>
           </li>
           <li
-            key="https://medium.com/qhacks"
+            key="https://medium.com/@qhacks"
           >
             <a
               data-cy="footer-blog-link"
-              href="https://medium.com/qhacks"
+              href="https://medium.com/@qhacks"
             >
               QHacks Blog ▸
             </a>
