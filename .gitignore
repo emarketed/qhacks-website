@@ -1,9 +1,0 @@
-.cache
-node_modules
-yarn-error.log
-public
-.DS_Store
-.vscode
-coverage
-cypress/videos
-cypress/screenshots
