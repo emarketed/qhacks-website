@@ -1,10 +1,12 @@
 .Rectangle-10 {
     width: 100%;
-    height: 51.6px;
+    height: 50px;
     border-radius: 25.8px;
     background-color: #00205b;
   }
   .text-about {
+    padding-top: 13.95px;
+    padding-left: 250px;
     width: 50%;
     height: 30px;
     font-family: EncodeSans;
