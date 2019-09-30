@@ -1,8 +1,11 @@
 .Rectangle-10 {
+
     width: 100%;
     height: 50px;
-    border-radius: 25.8px;
+    border-top-left-radius: 25.8px;
+    border-bottom-left-radius: 25.8px;
     background-color: #00205b;
+    margin-left: 10%
   }
   .text-about {
     padding-top: 13.95px;

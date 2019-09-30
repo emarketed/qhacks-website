@@ -5,6 +5,7 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   
   <header>
+   
     <div  class= "Rectangle-10">
     <div class= "text-about">
         
@@ -12,6 +13,7 @@ const Header = ({ siteTitle }) => (
         
         </div>
         </div>
+       
      </header>
 )
 
