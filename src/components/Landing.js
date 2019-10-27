@@ -3,11 +3,13 @@ import React from "react";
 import Header from "./Header";
 // import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
+import Particles from 'react-particles-js';
 
-import landingImg from "../assets/img/icons/landingImg.svg";
+import Rocket from "../assets/img/icons/Rocket.svg";
+import Planet from "../assets/img/icons/Planet.svg";
 import logo from "../assets/img/logo/qhacksCrown-colored.svg";
-import word from "../assets/img/logo/qhacksWordmark-colored.svg";
-import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
+import word from "../assets/img/logo/qhacksWordmark-white.svg";
+import backgroundGradient from "../assets/img/backgrounds/backgroundGradient.svg";
 
 // const applyButtonCSS = {
 //   margin: "25px 0 100px 0",
@@ -16,13 +18,14 @@ import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 //   }
 // };
 
+
 const Landing = () => (
   <div
     id=""
     css={{
       width: "100%",
-      background: `url(${backgroundCubes}) no-repeat center center`,
-      backgroundSize: "cover",
+      // background: `url(${backgroundGradient}) no-repeat center center`,
+      // backgroundSize: "cover",
       "@media(max-width: 600px)": {
         minHeight: "600px"
       }
@@ -63,14 +66,23 @@ const Landing = () => (
             alt="QHacks Crown"
           />
           <img
-            src={landingImg}
+            src={Rocket}
             css={{
               width: "75vw",
               maxWidth: "350px",
-              "@media(min-width: 821px)": { display: "none" }
+              //"@media(min-width: 821px)": { display: "none" }
             }}
             alt="QHacks Illustration"
           />
+          <img
+            src={Planet}
+            css={{
+              width: "75vw",
+              maxWidth: "350px",
+              //"@media(min-width: 821px)": { display: "none" }
+            }}
+            alt="QHacks Illustration"
+          />          
           <br />
           <img
             data-cy="qhacks-wordmark"
@@ -91,7 +103,7 @@ const Landing = () => (
           <h2
             data-cy="qhacks-information"
             css={{
-              color: "#00205b",
+              color: "#ffffff",
               fontWeight: 600,
               fontSize: "22px",
               paddingBottom: "30px",
@@ -100,13 +112,13 @@ const Landing = () => (
               }
             }}
           >
-            Queen’s University • February 1-3, 2019
+            Queen’s University • January 31st - February 2nd, 2020
           </h2>
           <h2
             data-cy="qhacks-tagline"
             css={{
               padding: "20px 0 100px",
-              color: "#575757",
+              color: "#d3d3d3",
               fontWeight: 500,
               lineHeight: "30px",
               "@media(max-width: 820px)": {
@@ -116,7 +128,7 @@ const Landing = () => (
               }
             }}
           >
-            Queen’s University’s annual hackathon.
+            Queen’s University’s 5th annual hackathon.
             <br />
             Join us for an unforgettable experience!
           </h2>
@@ -143,15 +155,9 @@ const Landing = () => (
             }
           }}
         >
-          <img
-            src={landingImg}
-            css={{
-              width: "100%"
-            }}
-            alt="QHacks Illustration"
-          />
         </div>
       </section>
+      
     </ContentWrapper>
   </div>
 );

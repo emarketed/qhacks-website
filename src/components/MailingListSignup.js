@@ -1,5 +1,5 @@
 import React from "react";
-import SignUpForm from "./SignUpForm";
+// import SignUpForm from "./SignUpForm";
 import ContentWrapper from "./ContentWrapper";
 
 import circuits from "../assets/img/backgrounds/circuitsRed.png";
@@ -34,12 +34,12 @@ const MailingListSignup = (props) => (
       >
         Sign up for our mailing list to receive important QHacks announcements!
       </p>
-      <SignUpForm
+      {/* <SignUpForm
         dataCyInput="mailing-list-input"
         dataCyButton="mailing-list-button"
         hoverBackgroundColor="#00205b"
         center={true}
-      />
+      /> */}
     </ContentWrapper>
   </section>
 );

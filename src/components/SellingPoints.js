@@ -1,195 +1,104 @@
-import React from "react";
-import SellingPointsIcons from "./SellingPointsIcons.js";
+import React, { Component } from "react";
+import MediaQuery from "react-responsive";
+import PointList from "./PointList.js";
+import PointBlurb from "./PointBlurb";
+import PointListCompressed from "./PointListCompressed.js";
+import PointBlurbCompressed from "./PointBlurbCompressed";
 
-import cubes2png from "../assets/img/icons/cubes-2.png";
-import judges from "../assets/img/icons/judgesIcon.svg";
-import cubes2webp from "../assets/img/icons/cubes-2.webp";
-import mentors from "../assets/img/icons/mentorsIcon.svg";
-import hackers from "../assets/img/icons/hackersIcon.svg";
-import schools from "../assets/img/icons/schoolsIcon.svg";
-import challenges from "../assets/img/icons/challengesIcon.svg";
-import applications from "../assets/img/icons/applicationsIcon.svg";
-import qhacksSellingPointOnejpg from "../assets/img/selling_points/qhacksSellingPointOne.jpg";
-import qhacksSellingPointTwojpg from "../assets/img/selling_points/qhacksSellingPointTwo.jpg";
-import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
-import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
 import ContentWrapper from "./ContentWrapper";
 
-const twoColumnStyle = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  margin: "0 auto",
-  marginBottom: "48px"
-};
+const points = [
+  {
+    title: "Celebrate Diversity and Sustainability",
+    image: "../img/logos/qhacksAppIcon.png",
+    text:
+      "This year we celebrate all the different people and things that make tech great! As we move forward, we have to use our abilities to make the world a better place for everyone who lives in it. That’s why this year we have chosen to promote diversity and sustainability by including speakers, mentors and workshops of all different backgrounds and making our event zero waste. "
+  },
+  {
+    title: "Learn Industry Skills from Industry Professionals",
+    image: "../img/logos/qhacksAppIcon.png",
+    text:
+      "Learn things you won’t learn in a classroom about the tech industry, founding your own start up, technical interviews and so much more straight from professionals. With over 35 companies in attendance ... "
+  },
+//   {
+//     title: " ",
+//     // image: 
+//     text:
+//       " "
+//   }
+];
 
-const flexChildStyle = {
-  flex: 1,
-  textAlign: "center",
-  minWidth: "300px",
-  margin: "0 28px 32px 28px",
-  maxWidth: "510px"
-};
+class SellingPoints extends Component {
+  state = {
+    currentPoint: 0
+  };
 
-const blurbStyle = {
-  margin: "32px auto",
-  fontSize: "15px",
-  lineHeight: "24px",
-  maxWidth: "500px"
-};
+  nextPoint() {
+    this.setState({
+      currentPoint: Math.min(
+        this.state.currentPoint + 1,
+        points.length - 1
+      )
+    });
+  }
 
-const imgStyle = {
-  maxHeight: "320px",
-  maxWidth: "475px",
-  width: "100%"
-};
+  prevPoint() {
+    this.setState({
+      currentPoint: Math.max(this.state.currentPoint - 1, 0)
+    });
+  }
 
-const SellingPoints = () => (
-  <div css={{ position: "relative" }}>
-    <ContentWrapper>
-      <div
+  render() {
+    const blurb = (
+      <span>
+        QHacks has something to offer everyone.
+        <br />
+        Check out some of the reasons you might want to attend!
+      </span>
+    );
+    return (
+      <section
+        id="points"
         css={{
-          padding: "143px 0",
-          margin: "0 -28px",
-          "@media(max-width: 840px)": {
-            padding: "143px 0 50px 0"
-          }
+          overflowX: "hidden"
         }}
       >
-        <div
-          css={{
-            ...twoColumnStyle,
-            flexWrap: "wrap"
-          }}
-        >
-          <div css={flexChildStyle}>
-            <h1>Grow Your Network.</h1>
-            <p css={blurbStyle}>
-              With hundreds of talented, ambitious, and like-minded individuals
-              all in one place, QHacks is the perfect playground for any tech
-              enthusiast! Over the weekend, immerse yourself in the community,
-              meet new people and talk shop with other students and companies!
-              Strong connections aren’t only important for internet speeds -
-              this is your chance to build, learn and grow!
-            </p>
-            <SellingPointsIcons
-              list={[
-                {
-                  icon: applications,
-                  number: 1800,
-                  text: "Applications"
-                },
-                {
-                  icon: schools,
-                  number: 25,
-                  text: "Schools"
-                },
-                {
-                  icon: hackers,
-                  number: 500,
-                  text: "Hackers"
+        <ContentWrapper>
+          <MediaQuery query="screen and (min-width: 1000px)">
+            <div
+              css={{
+                height: "575px",
+                position: "relative"
+              }}
+            >
+              <PointBlurb
+                nextPoint={() => this.nextPoint()}
+                prevPoint={() => this.prevPoint()}
+                firstPoint={!this.state.currentPoint}
+                lastPoint={
+                  this.state.currentPoint === points.length - 1
                 }
-              ]}
-            />
-          </div>
-          <div css={flexChildStyle}>
-            <picture css={imgStyle}>
-              <source srcSet={qhacksSellingPointOnewebp} type="image/webp" />
-              <source srcSet={qhacksSellingPointOnejpg} type="image/jpg" />
-              <img
-                css={imgStyle}
-                src={qhacksSellingPointOnejpg}
-                alt="Hackers in a workshop"
+                text={blurb}
               />
-            </picture>
-          </div>
-        </div>
-        <div
-          css={{
-            ...twoColumnStyle,
-            flexWrap: "wrap-reverse",
-            marginBottom: 0
-          }}
-        >
-          <div css={flexChildStyle}>
-            <picture css={imgStyle}>
-              <source srcSet={qhacksSellingPointTwowebp} type="image/webp" />
-              <source srcSet={qhacksSellingPointTwojpg} type="image/jpg" />
-              <img
-                css={imgStyle}
-                src={qhacksSellingPointTwojpg}
-                alt="Mentor judging a VR hack"
+              <PointList
+                currentPoint={this.state.currentPoint}
+                points={points}
               />
-            </picture>
-          </div>
-          <div css={flexChildStyle}>
-            <h1>Showcase to Experts.</h1>
-            <p css={blurbStyle}>
-              This year, we’re bringing together a diverse group of mentors,
-              speakers, sponsors and other industry professionals. Chat
-              one-on-one, learn about current tech trends and opportunities, and
-              show off your skills! Looking for some inspiration? Encountering a
-              roadblock? Does python feel like it’s constricting you? Not to
-              worry, there will always be a helping hand at the ready.
-            </p>
-            <SellingPointsIcons
-              list={[
-                {
-                  icon: mentors,
-                  number: 40,
-                  text: "Mentors"
-                },
-                {
-                  icon: judges,
-                  number: 20,
-                  text: "Judges"
-                },
-                {
-                  icon: challenges,
-                  number: 15,
-                  text: "Challenges"
-                }
-              ]}
-            />
-          </div>
-        </div>
-        <picture
-          css={{
-            width: "400px",
-            height: "246px",
-            position: "absolute",
-            bottom: "-140px",
-            left: "-60px",
-            zIndex: 3,
-            "@media(max-width: 1200px)": {
-              width: "358px",
-              height: "220px",
-              bottom: "-120px",
-              left: "-40px"
-            },
-            "@media(max-width: 840px)": {
-              display: "none"
-            }
-          }}
-        >
-          <source srcSet={cubes2webp} type="image/webp" />
-          <source srcSet={cubes2png} type="image/png" />
-          <img
-            css={{
-              width: "400px",
-              height: "246px",
-              "@media(max-width: 1200px)": {
-                width: "358px",
-                height: "220px"
-              }
-            }}
-            src={cubes2png}
-            alt="Floating cubes"
-          />
-        </picture>
-      </div>
-    </ContentWrapper>
-  </div>
-);
+            </div>
+          </MediaQuery>
+          <MediaQuery query="screen and (max-width: 1000px)">
+            <div css={{ margin: "0 0 80px 0" }}>
+              <PointBlurbCompressed text={blurb} />
+              <PointListCompressed
+                currentPoint={this.state.currentPoint}
+                points={points}
+              />
+            </div>
+          </MediaQuery>
+        </ContentWrapper>
+      </section>
+    );
+  }
+}
 
 export default SellingPoints;

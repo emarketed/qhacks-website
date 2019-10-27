@@ -1,6 +1,6 @@
 {
   "name": "qhacks-website",
-  "version": "4.7.1",
+  "version": "0.0.1",
   "description": "Website for QHacks!",
   "author": "QHacks Engineering",
   "homepage": "https://github.com/qhacks/qhacks-website#readme",
@@ -55,6 +55,7 @@
     "react-apollo": "^2.3.3",
     "react-dom": "^16.5.0",
     "react-helmet": "^5.2.0",
+    "react-particles-js": "^2.7.0",
     "react-responsive": "^5.0.0",
     "react-scrollspy": "^3.3.5",
     "react-slick": "^0.23.1",

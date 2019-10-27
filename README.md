@@ -1,126 +1,97 @@
-# QHacks Website
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's default starter
+</h1>
 
-[![CircleCI
-Status](https://circleci.com/gh/qhacks/qhacks-website.svg?style=shield&circle-token=2816988f179e0cb9a7ce228608a9a72fb62c7f64)](https://circleci.com/gh/qhacks/qhacks-website)
-[![Coverage
-Status](https://coveralls.io/repos/github/qhacks/qhacks-website/badge.svg?branch=dev)](https://coveralls.io/github/qhacks/qhacks-website?branch=dev)
+Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-This repository contains the QHacks website! The website is to serve as a
-marketing resource for our event and to act as a gateway for hackers to access
-our [dashboard](https://github.com/qhacks/qhacks-dashboard). In addition to
-containing our event website for the current year, this repo also contains
-branches that have our websites from our previous years.
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-The website is built using [Gatsby](https://www.gatsbyjs.org/) which utilizes
-[React](https://reactjs.org/) to generate static sites. For data fetching we are
-using a combination of [GraphQL](https://graphql.org/learn/) and
-[REST](https://en.wikipedia.org/wiki/Representational_state_transfer) from many
-different sources. For testing we use [Jest](https://jestjs.io/) and track our
-test coverage using [Coveralls](https://coveralls.io/). For more information
-about the technical specifications please refer to the
-[wiki](https://github.com/qhacks/qhacks-website/wiki).
+## 🚀 Quick start
 
-## Utilize
+1.  **Create a Gatsby site.**
 
-Utilize the scripts below in the root of the project to get started:
+    Use the Gatsby CLI to create a new site, specifying the default starter.
 
-**Install dependencies:**
+    ```shell
+    # create a new Gatsby site using the default starter
+    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    ```
 
-`npm run install`
+1.  **Start developing.**
 
-**Build the website:**
+    Navigate into your new site’s directory and start it up.
 
-`npm run build`
+    ```shell
+    cd my-default-starter/
+    gatsby develop
+    ```
 
-**Build the website while watching changes:**
+1.  **Open the source code and start editing!**
 
-`npm run develop`
+    Your site is now running at `http://localhost:8000`!
 
-**Run the linter to check code style:**
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-`npm run style`
+    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-**Run the formatter to fix code style issues:**
+## 🧐 What's inside?
 
-`npm run format`
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-**Run the entire test suite:**
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-`npm run test`
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-**Run only the Jest tests:**
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-`npm run jest-tests`
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-**Run only the Jest tests in watch mode:**
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-`npm run jest-tests-watch`
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-**Run only the Jest tests and report coverage data to Coveralls:**
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-`npm run jest-tests-with-coverage`
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-> NOTE: You likely won't need to do this and it will fail because some
-> environment variables are required. We use this in our CI environment.
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-**Run only the Cypress tests with server:**
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-`npm run cypress-tests`
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
->NOTE: This will start a server and host the website at the `baseURL` that
->Cypress requires and shut down the server once all the testing is complete.
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-**Open the Cypress test runner:**
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-`npm run cypress-open`
+## 🎓 Learning Gatsby
 
-**Run only the Cypress tests without server:**
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-`npm run cypress-run`
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
->NOTE: To run this you must have the website being served to the `baseURL` set
->in the Cypress config.
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-**Run only the Cypress tests and record data to the Cypress dashboard:**
+## 💫 Deploy
 
-`npm run cypress-run-record`
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
-> NOTE: You likely won't need to do this and it will fail because some
-> environment variables are required. We use this in our CI environment.
-
-## Contributing
-
-A general guide to contribute in this repository is:
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Submit a pull request :rocket:
-
-> See more information in our [contributing
-> guide](https://github.com/qhacks/qhacks-website/blob/dev/CONTRIBUTING.md).
-
-## License
-
-Copyright 2018 QHacks
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-> See the entire license in our [license
-> file](https://github.com/qhacks/qhacks-website/blob/dev/LICENSE).
+<!-- AUTO-GENERATED-CONTENT:END -->

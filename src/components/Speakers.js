@@ -3,42 +3,40 @@ import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 import Mentors from "./Mentors";
 
-import cubes3webp from "../assets/img/icons/cubes-3.webp";
+import plchldr from "../assets/img/logo/qhacksAppIcon.png";
 import cubes3png from "../assets/img/icons/cubes-3.png";
-import david from "../assets/img/speakers/davidHariri.jpg";
-import kaheer from "../assets/img/speakers/kaheerSuleman.jpg";
-import sarah from "../assets/img/speakers/sarahStockdale.jpg";
+import cubes3webp from "../assets/img/icons/cubes-3.webp";
 
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
   {
-    name: "David Hariri",
-    title: "Co-Founder of Ada",
+    name: "Speaker 1",
+    title: "Co-Founder of X",
     description:
-      "David is the Co-Founder and current Head of Design at Ada. He graduated from Queen’s University’s Geological and Earth Sciences program in 2012. At Ada, he is designing and built tools that allow companies to answer common questions automatically, improving customer satisfaction and saving everyone's time. Ada is used by Telus, Medium, Wattpad, Shopify and millions of their customers.",
-    image: david
+      "Speaker 1 is the best.",
+    image: plchldr
   },
   {
-    name: "Kaheer Suleman",
-    title: "Principal Research Program Manager at Microsoft",
+    name: "Speaker 2",
+    title: "CEO at Y",
     description:
-      "Kaheer is a Principal Research Program Manager at the Microsoft Research Montreal lab.  Kaheer co-founded the deep learning for language startup Maluuba and served as its CTO prior to its acquisition, by Microsoft,  in early 2017.  He currently works on machine learning approaches for natural language processing focusing on question answering, conversation systems and common sense reasoning.",
-    image: kaheer
+      "Speaker 2 is also pretty good.",
+    image: plchldr
   },
   {
-    name: "Sarah Stockdale",
-    title: "Founder & CEO of Valkerie",
+    name: "Speaker 3",
+    title: "Founder & CEO of Z",
     description:
-      "Sarah is the Founder and CEO of Valkerie, a boutique tech growth consultancy based in Toronto ON. She’s spent her career working on early stage technology startups, starting as a foundational team member of Wave, a Canadian financial technology giant. More recently she led the International Community Growth team at the San Francisco payments startup, Tilt, which was acquired by Airbnb in 2017.",
-    image: sarah
+      "Speaker 3 is also cool, but not as cool as 1 and 2.",
+    image: plchldr
   }
 ];
 
 const Speakers = () => (
   <section
     css={{
-      backgroundColor: "#f8f8f8",
+    //   backgroundColor: "#f8f8f8",
       position: "relative"
     }}
     id="speakers"
@@ -50,6 +48,7 @@ const Speakers = () => (
           paddingBottom: "48px",
           textAlign: "center",
           position: "relative",
+          color: "#ffffff",
           zIndex: "3",
           "@media(max-width: 820px)": {
             paddingTop: "200px",
@@ -57,7 +56,7 @@ const Speakers = () => (
           }
         }}
       >
-        Fireside Chat Speakers
+        Keynote Speakers
       </h1>
       {/* Desktop */}
       <div

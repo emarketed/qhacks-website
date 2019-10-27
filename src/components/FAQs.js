@@ -27,33 +27,8 @@ const questionsAndAnswers = [
       "Not to worry! We'll have a team-formation session prior to the hackathon for you to find people you’d like to work with. There will be plenty of other people in the same situation, and we’ll have you up and running in no time!"
   },
   {
-    question: "What if I don’t have an idea?",
-    answer:
-      "Ideas can come from anywhere! Call a friend, ask your mom, or check out our Facebook group to discuss with other hackers. Sponsors will also provide different project prompts during opening ceremonies to get the juices flowing."
-  },
-  {
     question: "Can I work on a past project?",
     answer: "No. All projects must be started from scratch at the event."
-  },
-  {
-    question: "What if I’m new to programming?",
-    answer:
-      "That's okay! A hackathon is a great place to gain valuable experience. There will be tutorials, workshops and mentors to help throughout the event!"
-  },
-  {
-    question: "What can I create?",
-    answer:
-      "Anything you’d like! Whether it's a new mobile app, website, or a cool project using something from the hardware lab, it’s really up to you. The possibilities are endless."
-  },
-  {
-    question: "What should I bring?",
-    answer:
-      "Bring whatever helps you hack! Some important items to bring include a valid form of student ID, laptop and charger, deodorant (arguably mandatory) and maybe a sleeping bag and change of clothes. If you have specific hardware you’d like to work with, feel free to bring it. MLH will also be providing a hardware lab with a wide range of items."
-  },
-  {
-    question: "How will my project be judged?",
-    answer:
-      "Industry experts from a variety of organizations will be coming to QHacks to view your projects. Pitch them your idea, show them a demo, and answer their questions for your chance to win awesome prizes."
   },
   {
     question: "Is there a Code of Conduct?",
@@ -89,14 +64,15 @@ const linkCss = {
 };
 
 const FAQs = () => (
-  <section id="faq" css={{ backgroundColor: "#ffffff" }}>
+  <section id="faq">
     <ContentWrapper>
       <div
         css={{
           padding: "110px 0 114px 0",
           "@media(max-width: 780px)": {
             padding: "64px 0 120px 0"
-          }
+          },
+          color: "#ffffff"
         }}
       >
         <h1>Frequently Asked Questions</h1>
@@ -107,7 +83,8 @@ const FAQs = () => (
             gridTemplateColumns: "1fr 1fr",
             "@media(max-width: 1190px)": {
               display: "block"
-            }
+            },
+            color: "#ffffff"
           }}
         >
           {questionsAndAnswers.map(({ question, answer }) => (
