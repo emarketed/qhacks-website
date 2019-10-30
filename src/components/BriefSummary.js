@@ -62,13 +62,11 @@ const BriefSummary = () => (
             <div {...caretCSS("#fedb01")} />
           </div>
           <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
-            QHacks is back in 2019 for another year of collaboration, ideation,
-            and creativity! On February 1st - 3rd, more than 500 students from
-            all over North America will come together to turn their ideas into
-            reality. Attend workshops, play with hardware, take part in hacker
-            challenges, and meet some new friends. Out-of-the-box thinkers,
-            creatives, and innovators from all faculties and skill levels are
-            encouraged to attend. We can&#39;t wait to see you there!
+            At Emarketed, we work as a team of designers, developers, marketers and project managers. 
+            You can count on us to see your project through to the end. That's why we've been in business
+            non-stop since 1998. Though we specialize in virtual things: websites, online marketing campaigns,
+           social media, email and content marketing... We pride ourselves on being attentive to the real needs 
+            of our clients, as they tend to arise in the real world, in real time.
           </p>
         </div>
         <div
