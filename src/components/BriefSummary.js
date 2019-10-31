@@ -48,7 +48,7 @@ const BriefSummary = () => (
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
         >
-          <h1 css={{ paddingTop: "2px" }}>Dream It. Build It.</h1>
+          <h1 css={{ paddingTop: "2px" }}>We get you found.</h1>
           <div
             css={{
               display: "grid",
