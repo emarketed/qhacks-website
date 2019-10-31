@@ -1,12 +1,12 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://qhacks.io',
-  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  URL: NETLIFY_SITE_URL = 'https://cocky-goldstine-b62d22.netlify.com',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = https://cocky-goldstine-b62d22.netlify.com,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
 
 const isNetlifyProduction = NETLIFY_ENV === 'production';
-const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+const siteUrl = isNetlifyProduction ? https://cocky-goldstine-b62d22.netlify.com : NETLIFY_DEPLOY_URL;
 
 const allowCrawling = {
   policy: [{ userAgent: '*' }],
